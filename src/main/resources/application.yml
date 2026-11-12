@@ -1,6 +1,8 @@
 spring:
   application:
     name: cinebook
+  config:
+    import: optional:file:.env[.properties]   # đọc TMDB_TOKEN, VNPAY_... từ file .env (không commit)
   profiles:
     default: dev
   threads:
@@ -8,7 +10,7 @@ spring:
       enabled: true
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/cinebook
+    url: jdbc:postgresql://localhost:5432/cinebook?reWriteBatchedInserts=true   # gộp batch INSERT thành INSERT nhiều dòng
     username: cinebook
     password: cinebook
   jpa:
@@ -48,7 +50,7 @@ cinebook:
     payment-extension-minutes: 5
     max-seats-per-booking: 8
   tmdb:
-    base-url: https://api.themoviedb.org/3
+    base-url: https://api.tmdb.org/3     # api.themoviedb.org bị nhà mạng VN chặn
     token: ${TMDB_TOKEN:}
     region: VN
     language: vi-VN

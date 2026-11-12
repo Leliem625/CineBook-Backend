@@ -50,9 +50,9 @@ public class Cinema {
     @Column(length = 20)
     private String phone;
 
-    /** Id bản ghi OpenStreetMap, ví dụ "node/123456" (null nếu admin tạo tay). */
-    @Column(unique = true, length = 30)
-    private String osmId;
+    /** Nguồn dữ liệu, ví dụ "osm:node/123456" hoặc "overture:" + uuid (null nếu admin tạo tay). */
+    @Column(unique = true, length = 100)
+    private String sourceId;
 
     @Column(nullable = false)
     private boolean active = true;

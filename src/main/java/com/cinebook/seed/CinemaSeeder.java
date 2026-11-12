@@ -35,12 +35,12 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
- * Nạp hệ thống rạp và cụm rạp thật từ snapshot OpenStreetMap
- * (src/main/resources/seed/osm-cinemas-vn.json, tạo bởi tools/osm/fetch_cinemas.py),
+ * Nạp hệ thống rạp và cụm rạp thật từ snapshot src/main/resources/seed/cinemas-vn.json
+ * (tạo bởi tools/places/build_cinemas.py, gộp OpenStreetMap + Overture Maps, gán theo 34 tỉnh/thành),
  * sau đó sinh phòng chiếu và sơ đồ ghế cho từng rạp.
  * <p>
- * Dữ liệu rạp © OpenStreetMap contributors (ODbL). Phòng và ghế là dữ liệu sinh ra,
- * dùng Random theo osmId nên chạy lại luôn ra cùng kết quả.
+ * Nguồn: © OpenStreetMap contributors (ODbL), Overture Maps (CDLA-Permissive-2.0).
+ * Phòng và ghế là dữ liệu sinh ra, dùng Random theo sourceId nên chạy lại luôn ra cùng kết quả.
  * <p>
  * Seeder là công cụ dev nên được phép dùng repository của nhiều module.
  */
@@ -50,9 +50,9 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class CinemaSeeder {
 
-    private static final String SNAPSHOT = "seed/osm-cinemas-vn.json";
+    private static final String SNAPSHOT = "seed/cinemas-vn.json";
     private static final Set<String> MAJOR_CHAINS = Set.of("CGV Cinemas", "Lotte Cinema", "Galaxy Cinema",
-            "BHD Star Cineplex", "Beta Cinemas", "Cinestar", "Mega GS Cinemas");
+            "BHD Star Cineplex", "Beta Cinemas", "Cinestar", "Mega GS Cinemas", "Platinum Cineplex", "Starlight");
     private static final Set<String> IMAX_CHAINS = Set.of("CGV Cinemas", "Lotte Cinema", "Galaxy Cinema",
             "BHD Star Cineplex");
 
@@ -64,11 +64,11 @@ public class CinemaSeeder {
     private final SeatLayoutService seatLayoutService;
 
     @JsonIgnoreProperties(ignoreUnknown = true)
-    record Snapshot(String source, String license, String fetchedAt, List<OsmCinema> cinemas) {
+    record Snapshot(List<String> sources, String boundaries, List<SourceCinema> cinemas) {
     }
 
     @JsonIgnoreProperties(ignoreUnknown = true)
-    record OsmCinema(String osmId, String name, String chain, String provinceSlug, String provinceName,
+    record SourceCinema(String sourceId, String name, String chain, String provinceSlug, String provinceName,
                      BigDecimal lat, BigDecimal lng, String address, String phone) {
     }
 
@@ -85,21 +85,21 @@ public class CinemaSeeder {
         Set<String> usedSlugs = new HashSet<>();
         int cinemaCount = 0, roomCount = 0, seatCount = 0;
 
-        for (OsmCinema osm : snapshot.cinemas()) {
-            Long provinceId = provinceIds.get(osm.provinceSlug());
+        for (SourceCinema src : snapshot.cinemas()) {
+            Long provinceId = provinceIds.get(src.provinceSlug());
             if (provinceId == null) {
-                log.warn("Không tìm thấy tỉnh '{}' cho rạp {}", osm.provinceSlug(), osm.name());
+                log.warn("Không tìm thấy tỉnh '{}' cho rạp {}", src.provinceSlug(), src.name());
                 continue;
             }
-            CinemaChain chain = chains.computeIfAbsent(osm.chain(), this::createChain);
-            Cinema cinema = createCinema(osm, chain, provinceId, usedSlugs);
+            CinemaChain chain = chains.computeIfAbsent(src.chain(), this::createChain);
+            Cinema cinema = createCinema(src, chain, provinceId, usedSlugs);
             cinemaCount++;
 
-            Random random = new Random(osm.osmId().hashCode());
-            boolean major = MAJOR_CHAINS.contains(osm.chain());
+            Random random = new Random(src.sourceId().hashCode());
+            boolean major = MAJOR_CHAINS.contains(src.chain());
             int rooms = major ? 4 + random.nextInt(4) : 2 + random.nextInt(3);
             for (int i = 1; i <= rooms; i++) {
-                boolean imax = IMAX_CHAINS.contains(osm.chain()) && rooms >= 6 && i == rooms;
+                boolean imax = IMAX_CHAINS.contains(src.chain()) && rooms >= 6 && i == rooms;
                 RoomTemplate template = imax ? RoomTemplate.IMAX : pickTemplate(random, major);
                 Room room = createRoom(cinema, i, imax, major, template);
                 seatCount += seatLayoutService.generateSeats(room, template);
@@ -107,7 +107,7 @@ public class CinemaSeeder {
             }
         }
         log.info("CinemaSeeder: {} hệ thống rạp, {} cụm rạp, {} phòng, {} ghế (nguồn: {})",
-                chains.size(), cinemaCount, roomCount, seatCount, snapshot.source());
+                chains.size(), cinemaCount, roomCount, seatCount, String.join("; ", snapshot.sources()));
     }
 
     private Snapshot readSnapshot() {
@@ -125,8 +125,8 @@ public class CinemaSeeder {
         return chainRepository.save(chain);
     }
 
-    private Cinema createCinema(OsmCinema osm, CinemaChain chain, Long provinceId, Set<String> usedSlugs) {
-        String base = SlugUtil.slugify(osm.name() + " " + osm.provinceName());
+    private Cinema createCinema(SourceCinema src, CinemaChain chain, Long provinceId, Set<String> usedSlugs) {
+        String base = SlugUtil.slugify(src.name() + " " + src.provinceName());
         String slug = base;
         for (int n = 2; !usedSlugs.add(slug); n++) {
             slug = base + "-" + n;
@@ -134,13 +134,13 @@ public class CinemaSeeder {
         Cinema cinema = new Cinema();
         cinema.setChain(chain);
         cinema.setProvinceId(provinceId);
-        cinema.setName(osm.name());
+        cinema.setName(src.name());
         cinema.setSlug(slug);
-        cinema.setAddress(osm.address());
-        cinema.setLatitude(osm.lat());
-        cinema.setLongitude(osm.lng());
-        cinema.setPhone(osm.phone());
-        cinema.setOsmId(osm.osmId());
+        cinema.setAddress(src.address());
+        cinema.setLatitude(src.lat());
+        cinema.setLongitude(src.lng());
+        cinema.setPhone(src.phone());
+        cinema.setSourceId(src.sourceId());
         return cinemaRepository.save(cinema);
     }
 

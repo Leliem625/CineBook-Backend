@@ -26,7 +26,8 @@ Mỗi module là một thư mục dưới `com.cinebook`, bên trong chia tầng
 | Package | Vai trò |
 |---|---|
 | `controller` | REST API public; `controller/admin` cho trang quản trị |
-| `service` | Nghiệp vụ, ranh giới transaction (`@Transactional`) |
+| `service` | **Interface** nghiệp vụ: "hợp đồng" công khai của module (method + Javadoc) |
+| `service/impl` | Cài đặt `XxxServiceImpl` (`@Service`, `@Transactional`, xử lý code) |
 | `repository` | Spring Data JPA |
 | `entity` | JPA entity + enum trạng thái |
 | `dto` | Request/response (Java record) |
@@ -55,7 +56,8 @@ Mỗi module là một thư mục dưới `com.cinebook`, bên trong chia tầng
 | `seed` | Sinh dữ liệu demo (profile `dev`) | 7.3 |
 
 Quy ước:
-- Module khác chỉ gọi nhau qua `service`, không truy cập trực tiếp `repository` của module khác (sẽ kiểm tra bằng ArchUnit).
+- Module khác chỉ gọi nhau qua **interface** trong `service`, không dùng `service/impl` hay `repository` của module khác (sẽ kiểm tra bằng ArchUnit).
+- Inject theo interface: `private final SeatHoldService seatHoldService;` (không inject `SeatHoldServiceImpl`).
 - Thay đổi dữ liệu cần báo cho module khác thì ghi event qua `OutboxService` trong cùng transaction.
 - Schema DB do Flyway quản lý, mỗi giai đoạn một file migration.
 

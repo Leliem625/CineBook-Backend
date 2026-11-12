@@ -10,3 +10,6 @@ target/
 
 # Secrets
 .env
+
+# Cache dữ liệu nguồn của tools/places (tải lại được)
+tools/places/.cache/

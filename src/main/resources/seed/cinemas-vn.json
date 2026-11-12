@@ -1,0 +1,6750 @@
+{
+ "sources": [
+  "OpenStreetMap (ODbL, © OpenStreetMap contributors)",
+  "Overture Maps Places 2026-10-21.0 (CDLA-Permissive-2.0 / Apache-2.0)"
+ ],
+ "boundaries": "Overture divisions 2026-10-21.0 (dữ liệu gốc OpenStreetMap, ODbL) - 34 tỉnh/thành",
+ "cinemas": [
+  {
+   "sourceId": "overture:e79ac81e-3d4e-4f4a-b51f-48dcbf5c4fc9",
+   "name": "Beta TRMall Phú Quốc",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "an-giang",
+   "provinceName": "An Giang",
+   "lat": 10.126314,
+   "lng": 103.985976,
+   "address": "TR MALL, Sonasea, Đường Bãi Trường",
+   "phone": "+84983474440",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "e79ac81e-3d4e-4f4a-b51f-48dcbf5c4fc9"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:4175db09-af0a-44cd-9073-c1e50bff3b37",
+   "name": "CGV Vincom Kiên Giang",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "an-giang",
+   "provinceName": "An Giang",
+   "lat": 10.003117,
+   "lng": 105.081231,
+   "address": "Tầng 4, Vincom Plaza Rạch Giá, Cô Bắc",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "4175db09-af0a-44cd-9073-c1e50bff3b37"
+    },
+    {
+     "source": "overture",
+     "id": "a6e1daa9-4f09-47dc-9791-88edf3cc712e"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:3eda3c78-a6d3-4fe4-a0a0-a5836e375c6a",
+   "name": "Cinestar Kiên Giang",
+   "chain": "Cinestar",
+   "provinceSlug": "an-giang",
+   "provinceName": "An Giang",
+   "lat": 9.953141,
+   "lng": 105.121034,
+   "address": "Trung tâm Thương mại, Nguyễn Chí Thanh",
+   "phone": "+8419000085",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "3eda3c78-a6d3-4fe4-a0a0-a5836e375c6a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:be9b4ced-a39f-4f39-a5a1-a7bf26d60a58",
+   "name": "Galaxy Cinema Long Xuyên",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "an-giang",
+   "provinceName": "An Giang",
+   "lat": 10.383948,
+   "lng": 105.436779,
+   "address": "TTTM Nguyễn Kim, 01 Trần Hưng Đạo",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "be9b4ced-a39f-4f39-a5a1-a7bf26d60a58"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:a1514d2d-277c-4c79-b2e6-9f20b4e976e4",
+   "name": "LOTTE Cinema Long Xuyên - Vincom",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "an-giang",
+   "provinceName": "An Giang",
+   "lat": 10.383646,
+   "lng": 105.437334,
+   "address": "TTTM Vincom",
+   "phone": "+842962479266",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "a1514d2d-277c-4c79-b2e6-9f20b4e976e4"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/11878142030",
+   "name": "Corona Theatre",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "an-giang",
+   "provinceName": "An Giang",
+   "lat": 10.32884,
+   "lng": 103.856862,
+   "address": "An Giang",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/11878142030"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:3ca88667-e1fc-4152-9ae5-04985769b337",
+   "name": "Rạp Thắng Lợi Rạch Giá",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "an-giang",
+   "provinceName": "An Giang",
+   "lat": 10.015747,
+   "lng": 105.08754,
+   "address": "138 Đường Mạc Cửu",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "3ca88667-e1fc-4152-9ae5-04985769b337"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/684802065",
+   "name": "Rạp chiếu bóng Thắng Lợi",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "an-giang",
+   "provinceName": "An Giang",
+   "lat": 10.00995,
+   "lng": 105.082981,
+   "address": "18 Đường Lê Lợi",
+   "phone": "+842973870915",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/684802065"
+    },
+    {
+     "source": "overture",
+     "id": "1bb2e985-c186-47dd-af6a-dd2492aa756f"
+    },
+    {
+     "source": "overture",
+     "id": "4a4ba756-1e78-4573-88ec-1e9efac1fb14"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/13407014701",
+   "name": "Beta Cinemas Bắc Giang",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "bac-ninh",
+   "provinceName": "Bắc Ninh",
+   "lat": 21.277008,
+   "lng": 106.194716,
+   "address": "51, Phường Bắc Giang, Thành phố Bắc Ninh",
+   "phone": "+84866493413",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/13407014701"
+    },
+    {
+     "source": "overture",
+     "id": "a9da5dd3-921f-4d68-bb25-e5e63e746210"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/12475675823",
+   "name": "LOTTE Cinema Bắc Ninh - Vincom",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "bac-ninh",
+   "provinceName": "Bắc Ninh",
+   "lat": 21.178467,
+   "lng": 106.072415,
+   "address": "TTTM Vincom Ngã 6, Đ. Lý Thái Tổ",
+   "phone": "+842223903536",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/12475675823"
+    },
+    {
+     "source": "overture",
+     "id": "d971d3c2-723b-44c7-baf2-2e68f0717eda"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:4cab3107-bc4b-43ec-b40b-11bd5403c24c",
+   "name": "Platinum Cineplex",
+   "chain": "Platinum Cineplex",
+   "provinceSlug": "bac-ninh",
+   "provinceName": "Bắc Ninh",
+   "lat": 21.117554,
+   "lng": 105.961066,
+   "address": "Tầng 5 - Vincom Center Long Biên",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "4cab3107-bc4b-43ec-b40b-11bd5403c24c"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/12373534297",
+   "name": "Dabaco Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "bac-ninh",
+   "provinceName": "Bắc Ninh",
+   "lat": 21.155245,
+   "lng": 106.144877,
+   "address": "Đường Trần Hưng Đạo, Phường Phượng Mao, Thị xã Quế Võ, Bắc Ninh",
+   "phone": "+842223622999",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/12373534297"
+    },
+    {
+     "source": "overture",
+     "id": "41ffcc7d-3477-464d-97bc-b0fe0bde15e2"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/12875651424",
+   "name": "Dabaco Cinema Bắc Ninh",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "bac-ninh",
+   "provinceName": "Bắc Ninh",
+   "lat": 21.177072,
+   "lng": 106.067611,
+   "address": "Phố Tô Vĩnh Diện, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/12875651424"
+    },
+    {
+     "source": "overture",
+     "id": "c00207fc-849d-485e-839e-226058dd143d"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:16e00a39-ae46-43dd-9007-cb773094b3b0",
+   "name": "Dabaco Cinema Từ Sơn",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "bac-ninh",
+   "provinceName": "Bắc Ninh",
+   "lat": 21.102928,
+   "lng": 105.962189,
+   "address": "Đường Lý Thái Tổ",
+   "phone": "+842223842668",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "16e00a39-ae46-43dd-9007-cb773094b3b0"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d931e86a-e4cc-4036-a1c6-3ae873dfaae4",
+   "name": "Nhà Rạp Tuấn Vân",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "bac-ninh",
+   "provinceName": "Bắc Ninh",
+   "lat": 21.271068,
+   "lng": 106.199515,
+   "address": "210 Đường Nguyễn Du",
+   "phone": "+841676389493",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d931e86a-e4cc-4036-a1c6-3ae873dfaae4"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:b53f0be2-6d20-4597-8891-c93f61b79438",
+   "name": "Nhà Rạp, Trang Trí Cưới Hỏi Giá Rẻ Lục Nam",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "bac-ninh",
+   "provinceName": "Bắc Ninh",
+   "lat": 21.307921,
+   "lng": 106.390982,
+   "address": "411 Bình Minh, thị trấn Đồi Ngô",
+   "phone": "+84915085778",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "b53f0be2-6d20-4597-8891-c93f61b79438"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:75dc3951-57d7-4313-95c6-fd54af74fa80",
+   "name": "Trung Tâm Phát Hành Phim Và Chiếu Bóng",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "bac-ninh",
+   "provinceName": "Bắc Ninh",
+   "lat": 21.182594,
+   "lng": 106.062561,
+   "address": "23  ĐƯỜNG Thiên Đức",
+   "phone": "+84413823534",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "75dc3951-57d7-4313-95c6-fd54af74fa80"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/6546585245",
+   "name": "Trung tâm Chiếu phim Bắc Ninh",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "bac-ninh",
+   "provinceName": "Bắc Ninh",
+   "lat": 21.179447,
+   "lng": 106.059323,
+   "address": "83 Đường Nguyễn Du, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/6546585245"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:b897ea43-ff06-453b-b8b3-c60226402f11",
+   "name": "GALAXY Bạc Liêu",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ca-mau",
+   "provinceName": "Cà Mau",
+   "lat": 9.304768,
+   "lng": 105.714173,
+   "address": "444 Ninh Bình",
+   "phone": "+84934815993",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "b897ea43-ff06-453b-b8b3-c60226402f11"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c0d4a782-7ad5-432e-9d69-1f6b42f50818",
+   "name": "Galaxy Cà Mau",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ca-mau",
+   "provinceName": "Cà Mau",
+   "lat": 9.177933,
+   "lng": 105.154469,
+   "address": "Sense City, 9 Đ. Trần Hưng Đạo",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c0d4a782-7ad5-432e-9d69-1f6b42f50818"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:0991c8e0-7013-4637-8705-32e429efba37",
+   "name": "LOTTE Cinema Cà Mau - Vincom",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ca-mau",
+   "provinceName": "Cà Mau",
+   "lat": 9.189487,
+   "lng": 105.139876,
+   "address": "02 Lê Duẩn",
+   "phone": "+842903533633",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "0991c8e0-7013-4637-8705-32e429efba37"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:1f5c2970-e75f-41a7-ac2d-9cfb9e622206",
+   "name": "Rạp Cưới Sáu Hiệp",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ca-mau",
+   "provinceName": "Cà Mau",
+   "lat": 9.332384,
+   "lng": 105.71963,
+   "address": "Ấp  Năm Căn, Hưng Thành, Vĩnh Lợi",
+   "phone": "+84901517571",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "1f5c2970-e75f-41a7-ac2d-9cfb9e622206"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:372e08b2-468a-45e2-88ff-8e7ce1bb7657",
+   "name": "CGV Cinemas 30 Tháng 4",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "can-tho",
+   "provinceName": "Cần Thơ",
+   "lat": 10.024662,
+   "lng": 105.774836,
+   "address": "VINCOM, 209 Đường 30 Tháng 4",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "372e08b2-468a-45e2-88ff-8e7ce1bb7657"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:ae18809e-eddf-4613-b3d5-935272f5529e",
+   "name": "CGV Sense City",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "can-tho",
+   "provinceName": "Cần Thơ",
+   "lat": 10.03426,
+   "lng": 105.785964,
+   "address": "Sense City, 1 Đ. Hoà Bình",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "ae18809e-eddf-4613-b3d5-935272f5529e"
+    },
+    {
+     "source": "overture",
+     "id": "cfcf3f39-a1af-40d0-8502-b739cb82879f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:5018f4bf-43a2-47d5-b95b-d6324b4ae405",
+   "name": "CGV Vincom Hùng Vương",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "can-tho",
+   "provinceName": "Cần Thơ",
+   "lat": 10.045383,
+   "lng": 105.77962,
+   "address": "02 Hùng Vương",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "5018f4bf-43a2-47d5-b95b-d6324b4ae405"
+    },
+    {
+     "source": "overture",
+     "id": "a2aeb536-7cb5-4aec-b770-86316315e08a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c8145d62-a08b-4cda-9285-c467512618b4",
+   "name": "CGV Vincom Plaza Hậu Giang",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "can-tho",
+   "provinceName": "Cần Thơ",
+   "lat": 9.783814,
+   "lng": 105.469364,
+   "address": "TTTM Vincom Plaza, Hậu Giang/1 Ba Tháng Hai",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c8145d62-a08b-4cda-9285-c467512618b4"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:7b462da7-5240-4045-9cca-a3679b57fda3",
+   "name": "DCINE Cinemas",
+   "chain": "DCINE",
+   "provinceSlug": "can-tho",
+   "provinceName": "Cần Thơ",
+   "lat": 9.57667,
+   "lng": 106.047,
+   "address": "9 Đường Tôn Đức Thắng",
+   "phone": "+842993895888",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "7b462da7-5240-4045-9cca-a3679b57fda3"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:6153f9c0-78f0-49fb-a919-ff4a857ccb2a",
+   "name": "DCINE Sóc Trăng",
+   "chain": "DCINE",
+   "provinceSlug": "can-tho",
+   "provinceName": "Cần Thơ",
+   "lat": 9.607172,
+   "lng": 105.97558,
+   "address": "Ánh Quang Plaza, 9 Tôn Đức Thắng",
+   "phone": "+842993895888",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "6153f9c0-78f0-49fb-a919-ff4a857ccb2a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:7eb52e78-8354-4d77-9f4d-de6fcbd3a7c0",
+   "name": "LOTTE CÁI RĂNG",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "can-tho",
+   "provinceName": "Cần Thơ",
+   "lat": 10.017808,
+   "lng": 105.782327,
+   "address": "1 Đường Số 13",
+   "phone": "+842923917173",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "7eb52e78-8354-4d77-9f4d-de6fcbd3a7c0"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/5251632999",
+   "name": "Lotte Department Store",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "can-tho",
+   "provinceName": "Cần Thơ",
+   "lat": 10.042269,
+   "lng": 105.766904,
+   "address": "Tầng 3 TTTM Lotte Mart, 84 Mậu Thân, Ninh Kiều, Cần Thơ",
+   "phone": "+842923696898",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/5251632999"
+    },
+    {
+     "source": "overture",
+     "id": "da72b39a-3722-4cf2-8eec-be6d3c5cb6fe"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/1781211387",
+   "name": "Phim 3D CARA",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "can-tho",
+   "provinceName": "Cần Thơ",
+   "lat": 10.03391,
+   "lng": 105.773902,
+   "address": "Cần Thơ",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/1781211387"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4774999430",
+   "name": "Rạp chiếu phim trung tâm",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "cao-bang",
+   "provinceName": "Cao Bằng",
+   "lat": 22.658164,
+   "lng": 106.254038,
+   "address": "Cao Bằng",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4774999430"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/5542427121",
+   "name": "CGV Cinema Vincom Danang",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 16.071782,
+   "lng": 108.229911,
+   "address": "Tầng 4 Trung tâm Thương Mại Vincom Đà Nẵng, Q, Ng. Quyền",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/5542427121"
+    },
+    {
+     "source": "overture",
+     "id": "e39691fd-63f7-4f7d-bf8c-eb0414f6d761"
+    },
+    {
+     "source": "overture",
+     "id": "07479955-ce7f-41e2-b031-cc2ba9ccdea6"
+    },
+    {
+     "source": "overture",
+     "id": "8080dde4-c396-499b-837b-661bf66e95bc"
+    },
+    {
+     "source": "overture",
+     "id": "6a5adf4c-7bb2-4085-82a9-141d09ada981"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/2148666607",
+   "name": "CGV Cinemas Vinh Trung Plaza",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 16.066777,
+   "lng": 108.213738,
+   "address": "255-257 Hung Vuong",
+   "phone": "+842363666222",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/2148666607"
+    },
+    {
+     "source": "overture",
+     "id": "e8f34f38-4091-4bf8-9fa1-cf80bf3b2c3b"
+    },
+    {
+     "source": "overture",
+     "id": "84f7f623-7767-4c6e-a5c8-7405ed5897dc"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/14109229682",
+   "name": "Galaxy Cinema Điện Biên Phủ",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 16.066642,
+   "lng": 108.187026,
+   "address": "Coop Mart, 478 Điện Biên Phủ",
+   "phone": "+842363739888",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/14109229682"
+    },
+    {
+     "source": "overture",
+     "id": "fc03db50-0bc8-4bc2-a692-d8c43ef2eefd"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:f09046b6-12a7-4f46-9676-a4c07a4d6bc8",
+   "name": "Lotte Cinema Danang",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 16.064878,
+   "lng": 108.210208,
+   "address": "50 Đường Hàm Nghi",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "f09046b6-12a7-4f46-9676-a4c07a4d6bc8"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:18a05249-3568-4bc8-9355-359aa6d8f2c0",
+   "name": "Lotte Cinema Hội An",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 15.5,
+   "lng": 108.283,
+   "address": "The Pearl Hội An, Khối An Bàng, Phường Hội An Tây, Thành Phố Đà Nẵng",
+   "phone": "+842353769989",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "18a05249-3568-4bc8-9355-359aa6d8f2c0"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/11585941212",
+   "name": "Lotte Cinema Đà Nẵng",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 15.917435,
+   "lng": 108.331355,
+   "address": "Lotte Mart, 06 đường Nại Nam",
+   "phone": "+842363679668",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/11585941212"
+    },
+    {
+     "source": "overture",
+     "id": "08bd0011-6515-4e5c-a9c8-8b587856f35a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:1beda02c-a8a4-41f3-97d1-4f6eb25f1385",
+   "name": "Cinema Fafim",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 16.074407,
+   "lng": 108.218816,
+   "address": "79 Đường Quang Trung",
+   "phone": "+84113894259",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "1beda02c-a8a4-41f3-97d1-4f6eb25f1385"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:33b78345-c530-49ce-939d-36dd457c6d16",
+   "name": "Hoi An Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 15.878312,
+   "lng": 108.329406,
+   "address": "47 Đường Phan Châu Trinh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "33b78345-c530-49ce-939d-36dd457c6d16"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/12608973951",
+   "name": "Lê Độ",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 16.071159,
+   "lng": 108.223885,
+   "address": "46 Trần Phú",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/12608973951"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:97becc07-4d38-46c5-bd5e-80cb82bf0f63",
+   "name": "Metiz Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 16.036177,
+   "lng": 108.224225,
+   "address": "Tòa nhà Helio, 1 Đ. 2 Tháng 9",
+   "phone": "+842363630689",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "97becc07-4d38-46c5-bd5e-80cb82bf0f63"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d671d6b6-3a52-489b-b42e-90c73e7cb155",
+   "name": "Roll hostel n rooftop cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 16.06374,
+   "lng": 108.230194,
+   "address": "485/1 Trần Hưng Đạo, An Hải Tây, Sơn Trà, Đà Nẵng",
+   "phone": "+84962286799",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d671d6b6-3a52-489b-b42e-90c73e7cb155"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:31615023-6b47-4698-bc0b-6ea9ac3818af",
+   "name": "Trung Vuong Theatre",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 16.069042,
+   "lng": 108.220576,
+   "address": "Hung Vuong",
+   "phone": "0236 3849 233",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "31615023-6b47-4698-bc0b-6ea9ac3818af"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/6520986632",
+   "name": "Starlight",
+   "chain": "Starlight",
+   "provinceSlug": "da-nang",
+   "provinceName": "Đà Nẵng",
+   "lat": 16.066426,
+   "lng": 108.203356,
+   "address": "Tòa nhà Nguyễn Kim, 46 Điện Biên Phủ",
+   "phone": "+8419001722",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/6520986632"
+    },
+    {
+     "source": "overture",
+     "id": "0169d478-77a6-4fa4-9bd1-f80e34dc8f35"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:dc87489e-5cfa-47b4-958b-5ff37e15c933",
+   "name": "CGV Buon Ma Thuot",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 12.693557,
+   "lng": 108.064069,
+   "address": "TTTM Nguyễn Kim, 01 Nguyễn Chí Thanh",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "dc87489e-5cfa-47b4-958b-5ff37e15c933"
+    },
+    {
+     "source": "overture",
+     "id": "d0f7bb10-b85d-4097-a887-61d75767f242"
+    },
+    {
+     "source": "overture",
+     "id": "ca0bfc42-61dc-40af-91cb-32dde4335c3f"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/6409820087",
+   "name": "Trung Tâm Thương mại Vincom Phú Yên - CGV",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 13.101254,
+   "lng": 109.308816,
+   "address": "Vòng xoay Hùng Vương - Trần Phú",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/6409820087"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/14253816002",
+   "name": "Galaxy Cinema Buôn Ma Thuột",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 12.692412,
+   "lng": 108.062169,
+   "address": "71 Nguyễn Tất Thành",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/14253816002"
+    },
+    {
+     "source": "overture",
+     "id": "470d2771-edad-40a9-b467-773d97368d21"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:9e142cb6-35ae-4c13-aed9-ce841da2f8eb",
+   "name": "DakLak Cinema Center",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 12.697279,
+   "lng": 108.066611,
+   "address": "3 Đường Văn Tiến Dũng",
+   "phone": "+842623699888",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "9e142cb6-35ae-4c13-aed9-ce841da2f8eb"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:986d3f58-c3a2-435c-a04a-447d527e90ab",
+   "name": "NuNa Home-cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 12.692044,
+   "lng": 108.051969,
+   "address": "54 Trần Khánh Dư",
+   "phone": "+84397339486",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "986d3f58-c3a2-435c-a04a-447d527e90ab"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/241736079",
+   "name": "Rạp Hưng Đạo",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 12.682091,
+   "lng": 108.041167,
+   "address": "235 Lê Hồng Phong",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/241736079"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:a5219779-8834-4c75-907e-b31915305891",
+   "name": "Rạp Hưng Đạo 2",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 13.085913,
+   "lng": 109.305579,
+   "address": "187-189 Đường Trần Hưng Đạo",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "a5219779-8834-4c75-907e-b31915305891"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/229027515",
+   "name": "Rạp Kim Đồng",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 12.68135,
+   "lng": 108.044464,
+   "address": "4 Hai Bà Trưng",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/229027515"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:3e66c87d-628e-4c5c-bff4-c8b0d57599cb",
+   "name": "Trung Tâm Phát Hành Phim & Chiếu Bóng",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 12.68627,
+   "lng": 108.0426,
+   "address": "48 Đường Nguyễn Trãi",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "3e66c87d-628e-4c5c-bff4-c8b0d57599cb"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:b3d51de0-712c-4840-8e0b-1a279775b8fc",
+   "name": "Trung Tâm Phát Hành Phim & Chiếu Bóng 2",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 12.68431,
+   "lng": 108.03877,
+   "address": "48 Đường Nguyễn Trãi",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "b3d51de0-712c-4840-8e0b-1a279775b8fc"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d39dbd43-7bce-4be6-a103-3bd003eb8686",
+   "name": "Starlight Hi-tech Entertainment Center",
+   "chain": "Starlight",
+   "provinceSlug": "dak-lak",
+   "provinceName": "Đắk Lắk",
+   "lat": 12.681738,
+   "lng": 108.044033,
+   "address": "Vincom Plaza, 78 Lý Thường Kiệt",
+   "phone": "+8419001722",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d39dbd43-7bce-4be6-a103-3bd003eb8686"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:6923a53f-f083-45c6-b32b-84bf7b866b8c",
+   "name": "Rạp phim Điện Biên",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dien-bien",
+   "provinceName": "Điện Biên",
+   "lat": 21.381719,
+   "lng": 103.015609,
+   "address": "Đường Võ Nguyên Giáp",
+   "phone": "+84303825070",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "6923a53f-f083-45c6-b32b-84bf7b866b8c"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:9dea6379-90e4-4ce9-95d4-d83bc478d5e1",
+   "name": "BHD Star Cineplex Vincom Mega Mall Thao Dien",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 10.954316,
+   "lng": 106.83517,
+   "address": "Đồng Nai",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "9dea6379-90e4-4ce9-95d4-d83bc478d5e1"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/11513591969",
+   "name": "BHD Star Long Khánh",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 10.922884,
+   "lng": 107.259467,
+   "address": "432 Hồ Thị Hương",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/11513591969"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:65214f1f-fb2f-4a5d-a544-e153832784ea",
+   "name": "Beta Cinemas Biên Hòa",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 10.946913,
+   "lng": 106.825187,
+   "address": "The Pegasus Plaza, 53-55 Đ. Võ Thị Sáu",
+   "phone": "+84979460002",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "65214f1f-fb2f-4a5d-a544-e153832784ea"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:f434fc33-019c-4c4f-b874-cfc8da6ffa56",
+   "name": "MECI Cinema Long Khánh",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 10.931958,
+   "lng": 107.24366,
+   "address": "198 Hùng Vương",
+   "phone": "+842516270040",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "f434fc33-019c-4c4f-b874-cfc8da6ffa56"
+    },
+    {
+     "source": "overture",
+     "id": "790ca751-cc3f-432e-9988-82aef2457adb"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:37cdef5b-7864-493e-a5ec-ee17b35de557",
+   "name": "CGV BigC Đồng Nai",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 10.782281,
+   "lng": 106.949385,
+   "address": "Đồng Nai",
+   "phone": "+842016582101",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "37cdef5b-7864-493e-a5ec-ee17b35de557"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:90d4177a-36cd-481d-9824-6a26cf686bcd",
+   "name": "CGV Cinemas - CoopMart Biên Hòa",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 10.958575,
+   "lng": 106.834427,
+   "address": "Tầng 3 | Siêu thị Co-Op Mart, 121 Quốc Lộ 15",
+   "phone": "+842145139402",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "90d4177a-36cd-481d-9824-6a26cf686bcd"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:6209afe3-df3f-4006-991e-4a6433feaaeb",
+   "name": "CGV GO! Đồng Nai",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 10.906553,
+   "lng": 106.850956,
+   "address": "Đ. 2A",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "6209afe3-df3f-4006-991e-4a6433feaaeb"
+    },
+    {
+     "source": "overture",
+     "id": "5480d1d4-84cf-4bbf-8e8e-5eda28e247da"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:a9c26ce9-ab01-46fd-a3c1-8bcf2fb2ec56",
+   "name": "Lotte Cinema Vincom Bien Hoa",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 10.957631,
+   "lng": 106.843275,
+   "address": "1096 Phạm Văn Thuận",
+   "phone": "+842513918924",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "a9c26ce9-ab01-46fd-a3c1-8bcf2fb2ec56"
+    },
+    {
+     "source": "overture",
+     "id": "661191b4-8d4e-490d-960f-ceedb290ea04"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:6e64f236-8c8e-4252-9fdf-073ced6fe9ed",
+   "name": "Lotte Cinema Đồng Nai",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 10.948822,
+   "lng": 106.870915,
+   "address": "Khu Thương Mại Amata Lotte Mart, 5",
+   "phone": "+842518899138",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "6e64f236-8c8e-4252-9fdf-073ced6fe9ed"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:ea508228-be0f-4dc4-a147-be1648ce3d77",
+   "name": "3D Cinema HD TIBO",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 10.971853,
+   "lng": 106.85304,
+   "address": "126B/5 QL.1A",
+   "phone": "+842518899138",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "ea508228-be0f-4dc4-a147-be1648ce3d77"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:fd8d9986-abe1-43f6-b33e-b1d4eeaede8b",
+   "name": "Chơn Thành Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 11.43156,
+   "lng": 106.615674,
+   "address": "Tầng 3 Chơn Thành Plaza",
+   "phone": "+84972484445",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "fd8d9986-abe1-43f6-b33e-b1d4eeaede8b"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:1a54fe00-0073-4a32-a515-aeb19100d464",
+   "name": "Dong Xoai Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 11.53329,
+   "lng": 106.885631,
+   "address": "1 Nguyễn Thị Minh Khai",
+   "phone": "+84979246445",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "1a54fe00-0073-4a32-a515-aeb19100d464"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c7244b7f-dfc6-4cd3-aa70-6111ad5d07a2",
+   "name": "The Gold Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 11.522436,
+   "lng": 106.859811,
+   "address": "Siêu thị The Gold Mart, Tôn Đức Thắng",
+   "phone": "+84817607171",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c7244b7f-dfc6-4cd3-aa70-6111ad5d07a2"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d6d65fe3-e4c9-4d06-9799-c35182bf4cbb",
+   "name": "Zuppy Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dong-nai",
+   "provinceName": "Đồng Nai",
+   "lat": 11.056277,
+   "lng": 107.168364,
+   "address": "42A/1 Đức Long, Gia Tân 2, Thống Nhất ",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d6d65fe3-e4c9-4d06-9799-c35182bf4cbb"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:22dc616b-bc85-444b-86a5-07cbb6f7955d",
+   "name": "CGV Đồng Tháp",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "dong-thap",
+   "provinceName": "Đồng Tháp",
+   "lat": 10.457686,
+   "lng": 105.633266,
+   "address": "Tầng 5 – TTTM VINCOM CAO LÃNH 02 Đường 30.04, Phường 01, TP. Cao Lãnh, Đồng Tháp",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "22dc616b-bc85-444b-86a5-07cbb6f7955d"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:10695436-845e-4ee5-bb21-66781df2cc2f",
+   "name": "Cgv Mỹ Tho",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "dong-thap",
+   "provinceName": "Đồng Tháp",
+   "lat": 10.358883,
+   "lng": 106.341014,
+   "address": "1 Đường Hùng Vương",
+   "phone": "+84303675393",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "10695436-845e-4ee5-bb21-66781df2cc2f"
+    },
+    {
+     "source": "overture",
+     "id": "68a7861c-510b-46dd-aa9e-4dd5120e8f0f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:505bcaba-32c9-4eb2-b9bd-9b0702eb5c8d",
+   "name": "Cinestar Mỹ Tho",
+   "chain": "Cinestar",
+   "provinceSlug": "dong-thap",
+   "provinceName": "Đồng Tháp",
+   "lat": 10.355659,
+   "lng": 106.3714,
+   "address": "52 Đường Đinh Bộ Lĩnh",
+   "phone": "+842737308881",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "505bcaba-32c9-4eb2-b9bd-9b0702eb5c8d"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/427587294",
+   "name": "Rạp Định Tường",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "dong-thap",
+   "provinceName": "Đồng Tháp",
+   "lat": 10.353965,
+   "lng": 106.367833,
+   "address": "53 Trưng Trắc, Phường 1, Mỹ Tho",
+   "phone": "+84 73 3872 232",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/427587294"
+    },
+    {
+     "source": "overture",
+     "id": "ce5efdd5-0ddf-43d6-9e42-0d46684fc014"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4525932092",
+   "name": "CGV Kim Cuc Plaza",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "gia-lai",
+   "provinceName": "Gia Lai",
+   "lat": 13.753921,
+   "lng": 109.207744,
+   "address": "Tầng 3 | Kim Cúc Plaza (BigC Quy Nhơn) Khu Đô Thị Vũng Chua",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4525932092"
+    },
+    {
+     "source": "overture",
+     "id": "e9b46183-f4a9-4fac-9ad1-aa08416c436b"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:5f07367b-953b-4fbe-9218-3eeb72928d14",
+   "name": "DCine QK",
+   "chain": "DCINE",
+   "provinceSlug": "gia-lai",
+   "provinceName": "Gia Lai",
+   "lat": 13.777503,
+   "lng": 109.226887,
+   "address": "Phan Bội Châu",
+   "phone": "+842562226666",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "5f07367b-953b-4fbe-9218-3eeb72928d14"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:ed49c097-7a86-4579-873d-3debcb26e065",
+   "name": "Star Cinema Pleiku",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "gia-lai",
+   "provinceName": "Gia Lai",
+   "lat": 13.972277,
+   "lng": 107.994816,
+   "address": "15 Đường Wừu",
+   "phone": "+84369813679",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "ed49c097-7a86-4579-873d-3debcb26e065"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:9a58486a-b13a-4d9e-80df-bee3de9fcc0f",
+   "name": "Starlight Cinema Gia Lai",
+   "chain": "Starlight",
+   "provinceSlug": "gia-lai",
+   "provinceName": "Gia Lai",
+   "lat": 13.978796,
+   "lng": 108.003835,
+   "address": "City, TTC Plaza building, 53 Quang Trung",
+   "phone": "+8419001722",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "9a58486a-b13a-4d9e-80df-bee3de9fcc0f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:a37438da-e279-4e66-ad19-4e402ede989e",
+   "name": "Starlight Quy Nhơn Cinema",
+   "chain": "Starlight",
+   "provinceSlug": "gia-lai",
+   "provinceName": "Gia Lai",
+   "lat": 13.773549,
+   "lng": 109.233281,
+   "address": "52A Tăng Bạt Hổ",
+   "phone": "+8419001722",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "a37438da-e279-4e66-ad19-4e402ede989e"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:0b4d08d5-0d60-4a63-a9fa-65bc42e6e978",
+   "name": "Touch Cinema Gia Lai",
+   "chain": "Touch Cinema",
+   "provinceSlug": "gia-lai",
+   "provinceName": "Gia Lai",
+   "lat": 13.977651,
+   "lng": 108.01282,
+   "address": "212 Nguyễn Tất Thành",
+   "phone": "+842693838999",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "0b4d08d5-0d60-4a63-a9fa-65bc42e6e978"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10202612929",
+   "name": "BHD Star Discovery Cầu Giấy",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.03538,
+   "lng": 105.794653,
+   "address": "302 Đường Cầu Giấy, Dịch Vọng, Cầu Giấy, Hà Nội",
+   "phone": "+842432060202",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10202612929"
+    },
+    {
+     "source": "overture",
+     "id": "336cfe58-313f-4f4b-a011-3b906fbb8dcb"
+    },
+    {
+     "source": "overture",
+     "id": "755857ad-b62f-4472-8767-9781d2806123"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10202550297",
+   "name": "BHD Star Garden Mỹ Đình",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.01527,
+   "lng": 105.777786,
+   "address": "tầng 4, TTTM Garden, Đường Mễ Trì, Mỹ Đình 1, Nam Từ Liêm, Hà Nội",
+   "phone": "+842432068678",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10202550297"
+    },
+    {
+     "source": "overture",
+     "id": "f4d951b9-7b7b-4758-8167-f373df6bb3a1"
+    },
+    {
+     "source": "overture",
+     "id": "16bc6bf0-10f2-4778-aa56-6fe807ffa888"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/8148906669",
+   "name": "BHD Star Vincom Pham Ngoc Thach",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.006453,
+   "lng": 105.832076,
+   "address": "Tầng 8, TTTM Vincom, 2 Phạm Ngọc Thạch Kim Liên",
+   "phone": "+842436373355",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/8148906669"
+    },
+    {
+     "source": "overture",
+     "id": "529401c6-c214-4705-81c2-4db491744f97"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/13429880050",
+   "name": "Aeon Beta Cinema",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.005699,
+   "lng": 105.754416,
+   "address": "Hà Nội",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/13429880050"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:9a875f2b-a946-48ad-afbe-7496bc73956f",
+   "name": "Beta Cinemas My Dinh",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.011855,
+   "lng": 105.77484,
+   "address": "Golden palace, Tầng hầm B1, Tòa nhà, Đ. Mễ Trì",
+   "phone": "+84866154610",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "9a875f2b-a946-48ad-afbe-7496bc73956f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:cc02022a-8c98-401b-ba42-b8f4ecdea5c6",
+   "name": "Beta Cinemas Thanh Xuân",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.00268,
+   "lng": 105.802228,
+   "address": "Tầng hầm B1, tòa nhà Golden West, 2 P. Lê Văn Thiêm",
+   "phone": "+84824812878",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "cc02022a-8c98-401b-ba42-b8f4ecdea5c6"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:46a9d5d9-a6f3-4848-8f15-fffe20066ea9",
+   "name": "Beta Cinemas Đan Phượng",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.074811,
+   "lng": 105.701838,
+   "address": "Tòa nhà HHA khu, đô thị XPHomes",
+   "phone": "+84983901714",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "46a9d5d9-a6f3-4848-8f15-fffe20066ea9"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:bf9349fd-c3cb-430c-846f-e6984fa1f95c",
+   "name": "Beta Tây Sơn",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.00563,
+   "lng": 105.823439,
+   "address": "MIPEC Tower, 229 P. Tây Sơn",
+   "phone": "+84976894773",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "bf9349fd-c3cb-430c-846f-e6984fa1f95c"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/12589868469",
+   "name": "Rạp Beta Cinemas Xuân Thủy",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.037284,
+   "lng": 105.786598,
+   "address": "122-124 Đường Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
+   "phone": "+84 333 023 183",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/12589868469"
+    },
+    {
+     "source": "overture",
+     "id": "23ff98d5-b103-43c3-a8cb-ddb3496ebc2a"
+    },
+    {
+     "source": "overture",
+     "id": "75735763-e811-4841-a83d-4fb357e57b76"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:7bf9180e-5dfe-4509-8e1e-5eb3e8e6e924",
+   "name": "Rạp Beta Giải Phóng",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.985698,
+   "lng": 105.840713,
+   "address": "IP2 toà Imperial, 360 Đ. Giải Phóng",
+   "phone": "+84585680360",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "7bf9180e-5dfe-4509-8e1e-5eb3e8e6e924"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/899476441",
+   "name": "CGV Aeon Long Bien",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.026093,
+   "lng": 105.900357,
+   "address": "TTTM AEON Mega Maill, 27 Đ. Cổ Linh",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/899476441"
+    },
+    {
+     "source": "overture",
+     "id": "fe7f4ca4-fb4f-451c-9827-3d10af45aad8"
+    },
+    {
+     "source": "overture",
+     "id": "9074e95b-89bf-48c0-a9da-fe427cae968a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:e9ead071-a773-406e-ae87-5befbf2687df",
+   "name": "CGV Artemis Lê Trọng Tấn Hà Nội",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.99971,
+   "lng": 105.828334,
+   "address": "6 Phố Lê Trọng Tấn",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "e9ead071-a773-406e-ae87-5befbf2687df"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/442977325",
+   "name": "CGV Cinemas Bà Triệu",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.01113,
+   "lng": 105.849409,
+   "address": "Trạm sạc VinFast, 191 Bà Triệu",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/442977325"
+    },
+    {
+     "source": "overture",
+     "id": "cacc402d-b3eb-4ce3-9a16-73458db4d319"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10035906582",
+   "name": "CGV Cinemas Hà Nội",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.020072,
+   "lng": 105.781269,
+   "address": "Hà Nội",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10035906582"
+    },
+    {
+     "source": "overture",
+     "id": "7f636fc3-2436-4fe1-bf3f-6894db1f8006"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/12331430865",
+   "name": "CGV Cinemas Hà Nội Centerpoint",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.004615,
+   "lng": 105.804877,
+   "address": "85 Đường Lê Văn Lương",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/12331430865"
+    },
+    {
+     "source": "overture",
+     "id": "e4550d80-a210-48b6-b14e-cce4e920d8fe"
+    },
+    {
+     "source": "overture",
+     "id": "4bc54a11-1444-4f69-bbc6-ba69e6aaa810"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:de6672b1-de65-440a-94bc-2d1f5be4bdab",
+   "name": "CGV Cinemas Lương Yên",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.01433,
+   "lng": 105.86556,
+   "address": "03 Lương Yên, Bạch Đằng, Hai Bà Trưng, Hà Nội 100000",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "de6672b1-de65-440a-94bc-2d1f5be4bdab"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/1331638431",
+   "name": "CGV Cinemas Minh Khai",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.993644,
+   "lng": 105.868019,
+   "address": "Chợ Hải Sản Biển Đông - Times City, 458 Minh Khai",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/1331638431"
+    },
+    {
+     "source": "overture",
+     "id": "d9f89b89-34cc-490f-a8f3-600417e9fc13"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/11043816636",
+   "name": "CGV Cinemas Tràng Tiền Plaza",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.024591,
+   "lng": 105.853301,
+   "address": "24 Phố Hai Bà Trưng",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/11043816636"
+    },
+    {
+     "source": "overture",
+     "id": "7874eb8f-01f5-484f-a5c4-d9de86c6033e"
+    },
+    {
+     "source": "overture",
+     "id": "a1ad1544-fac6-4c28-b334-313853846e91"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/892577389",
+   "name": "CGV Cinemas Vincom Royal City",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.002498,
+   "lng": 105.815984,
+   "address": "72 Nguyễn Trãi",
+   "phone": "1900 6017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/892577389"
+    },
+    {
+     "source": "overture",
+     "id": "b30648ff-a0dd-4b60-adfa-84efe3cfdb89"
+    },
+    {
+     "source": "overture",
+     "id": "f3654e43-575a-47a8-9d8e-d9800531a047"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:380f2c68-80b1-4020-ac05-9f8dfcacc287",
+   "name": "CGV Ha Dong",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.988478,
+   "lng": 105.750612,
+   "address": "Hà Nội",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "380f2c68-80b1-4020-ac05-9f8dfcacc287"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/6633363386",
+   "name": "CGV Ho Guom Plaza",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.979093,
+   "lng": 105.785316,
+   "address": "30/110 Đường Trần Phú",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/6633363386"
+    },
+    {
+     "source": "overture",
+     "id": "0aae52ec-ee9a-40d5-b20a-cf027cdf4954"
+    },
+    {
+     "source": "overture",
+     "id": "47e8f030-2c83-4e5d-9583-2bb9a752f4c9"
+    },
+    {
+     "source": "overture",
+     "id": "955a7ecd-cee3-45c3-a7b5-c43e5daa1cda"
+    },
+    {
+     "source": "overture",
+     "id": "f9665458-383e-4e1b-a8e8-7770a72a00e5"
+    },
+    {
+     "source": "overture",
+     "id": "05b41b0d-c853-422b-8edc-e5f252fcfcec"
+    },
+    {
+     "source": "overture",
+     "id": "68842236-0281-4866-9239-4a9a91532e8b"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10202538308",
+   "name": "CGV IPH Gold Class",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.036178,
+   "lng": 105.782269,
+   "address": "241 Đường Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
+   "phone": "+841687224883",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10202538308"
+    },
+    {
+     "source": "overture",
+     "id": "be51c605-6295-4dde-9113-7dfec3766bd1"
+    },
+    {
+     "source": "overture",
+     "id": "281ed014-17e0-48e0-8007-49de4311e1d5"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:e4d0be71-abf8-4b87-b07d-e3eb1d471e0c",
+   "name": "CGV Mipec Tower",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.005548,
+   "lng": 105.823777,
+   "address": "Mipec Tower, 229 Phố Tây Sơn",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "e4d0be71-abf8-4b87-b07d-e3eb1d471e0c"
+    },
+    {
+     "source": "overture",
+     "id": "bfa49c2d-f378-4577-ba1e-e78c5191b4e0"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4991789621",
+   "name": "CGV Rice City",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.963558,
+   "lng": 105.822888,
+   "address": "Hà Nội",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4991789621"
+    },
+    {
+     "source": "overture",
+     "id": "6c4f47e7-7fa9-42eb-8c10-0d0c47f2b4eb"
+    },
+    {
+     "source": "overture",
+     "id": "f27e23cf-dfbc-4673-bfdc-d865f558144d"
+    },
+    {
+     "source": "overture",
+     "id": "049bab11-815a-4cb3-a19d-d3501bccab13"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:def18560-0e66-4030-a782-009e3c917b82",
+   "name": "CGV Sun Grand Thuy Khue",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.040507,
+   "lng": 105.8262,
+   "address": "Tầng 5.1 - 5.2, Sun Grand City Thuy Khue Residence , 68B Thụy Khuê, Phường, Đ. Thụy Khuê",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "def18560-0e66-4030-a782-009e3c917b82"
+    },
+    {
+     "source": "overture",
+     "id": "18c0d33e-a8ff-43ab-abf0-e5b4f4389a4a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d10e98c8-ac7b-48f2-bb9b-94ce16ac6c5a",
+   "name": "CGV Times City",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.01689,
+   "lng": 105.83208,
+   "address": "Hà Nội",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d10e98c8-ac7b-48f2-bb9b-94ce16ac6c5a"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/13912681358",
+   "name": "CGV Truong Dinh Plaza",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.985124,
+   "lng": 105.846723,
+   "address": "461 Đường Trương Định, Tương Mai",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/13912681358"
+    },
+    {
+     "source": "overture",
+     "id": "863bafae-ed39-4df0-ae2f-3d42a836c547"
+    },
+    {
+     "source": "overture",
+     "id": "98fd5b9a-f01a-4321-ac5f-f0a65fea9279"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10202702951",
+   "name": "CGV Trần Duy Hưng",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.006605,
+   "lng": 105.795367,
+   "address": "119 Đường Trần Duy Hưng, Trung Hòa, Cầu Giấy, Hà Nội",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10202702951"
+    },
+    {
+     "source": "overture",
+     "id": "96048380-1340-45d3-a814-bb67806d7fa1"
+    },
+    {
+     "source": "overture",
+     "id": "7d3b45e3-1d8a-46fb-b60f-93c845cca8c3"
+    },
+    {
+     "source": "overture",
+     "id": "f96b3c4d-852b-457b-b4ac-3c305a45c46a"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10202523843",
+   "name": "CGV Vincom Bac Tu Liem",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.052596,
+   "lng": 105.780387,
+   "address": "234 Đường Phạm Văn Đồng, Cổ Nhuế, Bắc Từ Liêm, Hà Nội",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10202523843"
+    },
+    {
+     "source": "overture",
+     "id": "dce95bf8-7352-4125-987a-897cf0a82bed"
+    },
+    {
+     "source": "overture",
+     "id": "fce217ac-0649-45ed-8e54-821ca12517da"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10621408643",
+   "name": "CGV Vincom Metropolis",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.031403,
+   "lng": 105.815076,
+   "address": "29 P. Liễu Giai",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10621408643"
+    },
+    {
+     "source": "overture",
+     "id": "522b6458-63b4-4677-8ad8-8221af159cbd"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10621408637",
+   "name": "CGV Vincom Nguyen Chi Thanh",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.023407,
+   "lng": 105.809142,
+   "address": "Vincom Center, 54A Đ. Nguyễn Chí Thanh",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10621408637"
+    },
+    {
+     "source": "overture",
+     "id": "e85d1ea1-fe01-40ea-8187-d39c1781f6bb"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:b91904b3-266f-4bf8-af68-4fe905f21e65",
+   "name": "CGV Xuân Diệu",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.065128,
+   "lng": 105.82724,
+   "address": "59 Đ. Xuân Diệu",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "b91904b3-266f-4bf8-af68-4fe905f21e65"
+    },
+    {
+     "source": "overture",
+     "id": "83d3e21d-0d4f-44ac-bb92-741644aeca24"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:f9c2ec91-795f-4c96-8277-a7f5a22f925f",
+   "name": "Kosmo Tây Hồ - Chung Cư Cao Cấp, Cụm Rạp Chiếu Phim CGV",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.068304,
+   "lng": 105.802269,
+   "address": "Hà Nội",
+   "phone": "+84916353773",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "f9c2ec91-795f-4c96-8277-a7f5a22f925f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:f5cb2409-87cc-45b9-849f-16c03bb1e2bf",
+   "name": "Cinestar ParkCity Hà Nội",
+   "chain": "Cinestar",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.987172,
+   "lng": 105.7451,
+   "address": "Đường Lê Trọng Tấn, phường Dương Nội",
+   "phone": "+8419000085",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "f5cb2409-87cc-45b9-849f-16c03bb1e2bf"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/13806229565",
+   "name": "Galaxy CineX",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.030532,
+   "lng": 105.830489,
+   "address": "175 Phố Nguyễn Thái Học, Ô Chợ Dừa, Hà Nội",
+   "phone": "+84 1900 2224",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/13806229565"
+    },
+    {
+     "source": "overture",
+     "id": "7e7097c9-1e37-432a-8fe7-e593331c45bd"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:6656fa5f-7ad4-4a9b-8396-4b85e8b7c568",
+   "name": "Galaxy Mipec Long Biên",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.04545,
+   "lng": 105.866179,
+   "address": "Chung Cư Mipec Riverside, P. Long Biên 2",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "6656fa5f-7ad4-4a9b-8396-4b85e8b7c568"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:674f775e-be6a-4661-b0a7-0b0085db255a",
+   "name": "Lotte Cinema - Vincom Plaza Việt Trì",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.988804,
+   "lng": 105.790596,
+   "address": "Ngõ 179 Phùng Khoang",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "674f775e-be6a-4661-b0a7-0b0085db255a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:44413852-b83e-405e-b46f-b39d5df80994",
+   "name": "Lotte Cinema Kaeng Nam",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.042358,
+   "lng": 105.84415,
+   "address": "Phố Yên Ninh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "44413852-b83e-405e-b46f-b39d5df80994"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:3f76155a-ee09-4061-adda-5fd0cf7879df",
+   "name": "Lotte Cinema Kaengnam Tower",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.008268,
+   "lng": 105.835466,
+   "address": "65 Phố Phạm Ngọc Thạch",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "3f76155a-ee09-4061-adda-5fd0cf7879df"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/8906133615",
+   "name": "Lotte Cinema Kosmo",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.068414,
+   "lng": 105.802223,
+   "address": "161 Đường Xuân La, Phường Xuân Tảo, Bắc Từ Liêm, Hà Nội",
+   "phone": "+842471068685",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/8906133615"
+    },
+    {
+     "source": "overture",
+     "id": "aae0d2fb-9922-4c85-a59d-2a2cbd7fa3e9"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:a66ce760-4ead-42d2-a1c8-b10d29656c41",
+   "name": "Lotte Cinema Landmark Keangnam",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.036707,
+   "lng": 105.814479,
+   "address": "8 Phố Liễu Giai",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "a66ce760-4ead-42d2-a1c8-b10d29656c41"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:1e8ce055-1fc1-46c6-af3e-8d9ca44e304d",
+   "name": "Lotte Cinema Phạm Hùng",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.017431,
+   "lng": 105.783797,
+   "address": "Tầng 6, Keangnam Landmark, 72 Phạm Hùng",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "1e8ce055-1fc1-46c6-af3e-8d9ca44e304d"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10202682986",
+   "name": "Lotte Cinema Thăng Long",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.007102,
+   "lng": 105.793025,
+   "address": "222 Đường Trần Duy Hưng, Trung Hòa, Cầu Giấy, Hà Nội",
+   "phone": "+842439454999",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10202682986"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/11085187217",
+   "name": "Lotte Cinema West Lake",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.076249,
+   "lng": 105.813152,
+   "address": "683 Đ. Lạc Long Quân",
+   "phone": "+842466689950",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/11085187217"
+    },
+    {
+     "source": "overture",
+     "id": "8151efe0-1385-4e82-af5e-ae5db89b2247"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:9f8e9c0f-f118-4563-a454-f1fecb479bd8",
+   "name": "Lotte Cinema, Kangnam Building, Hanoi",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.020656,
+   "lng": 105.83617,
+   "address": "Ngõ Văn Chương",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "9f8e9c0f-f118-4563-a454-f1fecb479bd8"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:dfdd8d82-30de-41cb-9400-83b973c78c06",
+   "name": "Lotte Kham Thien",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.02297,
+   "lng": 105.82372,
+   "address": "360 Đường La Thành",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "dfdd8d82-30de-41cb-9400-83b973c78c06"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:8fecba5e-e287-4170-b70e-36e04da4fc0e",
+   "name": "Rạp Chiếu Phim Metro Hà Đông",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.964286,
+   "lng": 105.771707,
+   "address": "Tầng 4, Trung tâm thương mại Mê Linh Plaza Hà Đông, Tô Hiệu, P. Hà Cầu, Q. Hà Đông, Hà Nội.",
+   "phone": "+841635132252",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "8fecba5e-e287-4170-b70e-36e04da4fc0e"
+    },
+    {
+     "source": "overture",
+     "id": "2da9b228-f20c-46ac-82af-e9f4ca6c79d3"
+    },
+    {
+     "source": "overture",
+     "id": "ae1495ab-eae7-4256-9992-fb8d774ef45e"
+    },
+    {
+     "source": "overture",
+     "id": "4419a483-5282-40c4-8c73-4aec8279e0fe"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:febd8a9f-0f7b-4721-9a94-025ee4f86338",
+   "name": "Toà Nhà Lotte Đào Tấn",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.02869,
+   "lng": 105.82626,
+   "address": "135 Phố Giảng Võ",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "febd8a9f-0f7b-4721-9a94-025ee4f86338"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:953b9d38-c4a4-4af9-af6a-f3a23b50ad17",
+   "name": "Platinum Cinema - Time City",
+   "chain": "Platinum Cineplex",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.99557,
+   "lng": 105.856181,
+   "address": "1 Phố Minh Khai",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "953b9d38-c4a4-4af9-af6a-f3a23b50ad17"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:4caaf6a9-b41e-42ce-b70d-8ccf266bc188",
+   "name": "Platinum Cineplex - Vincom Center Long Biên",
+   "chain": "Platinum Cineplex",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.050571,
+   "lng": 105.916173,
+   "address": "Vincom Long Biên",
+   "phone": "+842436574455",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "4caaf6a9-b41e-42ce-b70d-8ccf266bc188"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c54df78a-c9b7-4841-b600-8ab4acdde4c2",
+   "name": "Platinum Cineplex - the Garden",
+   "chain": "Platinum Cineplex",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.05772,
+   "lng": 105.78275,
+   "address": "Hà Nội",
+   "phone": "+84437878555",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c54df78a-c9b7-4841-b600-8ab4acdde4c2"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c9417e3f-766e-4d41-a005-f60bdede27d9",
+   "name": "Rap Chieu Phim Platinum Cineplex",
+   "chain": "Platinum Cineplex",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.01528,
+   "lng": 105.777696,
+   "address": "Trung Tâm Thương Mại The Garden (Tầng 4), Mễ Trì",
+   "phone": "+842437878555",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c9417e3f-766e-4d41-a005-f60bdede27d9"
+    },
+    {
+     "source": "overture",
+     "id": "5635209c-68fe-48af-89f3-46ab2d931e5a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:7726e40c-c062-4e9e-b083-4806951ee680",
+   "name": "Rạp Chiếu Phim Platinum, Vincom Mega Mall Royal City",
+   "chain": "Platinum Cineplex",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.02357,
+   "lng": 105.79482,
+   "address": "122 Phố Yên Hòa",
+   "phone": "+842806265888",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "7726e40c-c062-4e9e-b083-4806951ee680"
+    },
+    {
+     "source": "overture",
+     "id": "ea6261b6-92ee-445d-9a90-00c3702b84dc"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:dde6d5a5-27ea-4b7e-bcb4-9b337c412777",
+   "name": "BHDS Cinema Discovery Cầu Giấy",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.035519,
+   "lng": 105.794681,
+   "address": "Tầng 8, TTTM Discovery, 302 Cầu Giấy, Hà Nội",
+   "phone": "+8419002099",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "dde6d5a5-27ea-4b7e-bcb4-9b337c412777"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:83aac1fd-747b-450c-92bf-92fbbdf86383",
+   "name": "FaFim Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.002825,
+   "lng": 105.820272,
+   "address": "19 Phố Nguyễn Hữu Huân",
+   "phone": "+84968999666",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "83aac1fd-747b-450c-92bf-92fbbdf86383"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:2d1f26aa-6039-4674-a9d3-79ba1623e49a",
+   "name": "Highland Rạp Ngọc Khánh",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.000874,
+   "lng": 105.792901,
+   "address": "Đường Hồ Mễ Trì",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "2d1f26aa-6039-4674-a9d3-79ba1623e49a"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/9438404860",
+   "name": "Nhà Văn hóa Điện ảnh Ngọc Khánh",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.029672,
+   "lng": 105.810999,
+   "address": "523 Phố Kim Mã, Ngọc Khánh, Ba Đình, Hà Nội",
+   "phone": "+84437712750",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/9438404860"
+    },
+    {
+     "source": "overture",
+     "id": "e68b05b6-7037-4765-9752-198d046426d3"
+    },
+    {
+     "source": "overture",
+     "id": "c723a39b-a5b0-4a54-bfda-f3c7263ea374"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/1308421316",
+   "name": "Rạp 2-9",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.14396,
+   "lng": 105.505954,
+   "address": "15 Phố Lê Lợi",
+   "phone": "+84433831608",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/1308421316"
+    },
+    {
+     "source": "overture",
+     "id": "bee36e31-8a17-489b-aea1-13c3fc08cdd6"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c1157789-7d54-459d-81f4-c44b861fd0cd",
+   "name": "Rạp Chiếu Phim Benta Đan Phượng",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.07502,
+   "lng": 105.701988,
+   "address": "Đan Phượng",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c1157789-7d54-459d-81f4-c44b861fd0cd"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:33f8d305-37e3-4368-9845-af54ee54263b",
+   "name": "Rạp Chiếu Phim Royal City",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.006009,
+   "lng": 105.812601,
+   "address": "Hà Nội",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "33f8d305-37e3-4368-9845-af54ee54263b"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:4823afd0-1a1c-49a2-acdb-a2af76456d19",
+   "name": "Rạp Chiếu Phim Time City",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.993938,
+   "lng": 105.86858,
+   "address": "Hà Nội",
+   "phone": "+841689026772",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "4823afd0-1a1c-49a2-acdb-a2af76456d19"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:1062d892-af30-4c4b-a4ce-f6324b83e960",
+   "name": "Rạp Dân Chủ",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.019462,
+   "lng": 105.834014,
+   "address": "223, Trưng Nữ Vương",
+   "phone": "+842438516702",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "1062d892-af30-4c4b-a4ce-f6324b83e960"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c59c329a-2ae4-4a67-8f51-d263adcb1182",
+   "name": "Rạp Hồng Hà",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.03134,
+   "lng": 105.84706,
+   "address": "51 Phố Đường Thành",
+   "phone": "+84985895269",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c59c329a-2ae4-4a67-8f51-d263adcb1182"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/863234970",
+   "name": "Rạp Kim Đồng",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.023757,
+   "lng": 105.853236,
+   "address": "19 Phố Hàng Bài",
+   "phone": "+842439393474",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/863234970"
+    },
+    {
+     "source": "overture",
+     "id": "c07d7465-e101-42f4-a100-278e9b1c547c"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/446044158",
+   "name": "Rạp Phim Bạch Mai",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 20.998086,
+   "lng": 105.850439,
+   "address": "Hà Nội",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/446044158"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/1089076699",
+   "name": "Rạp Tháng 8",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.021466,
+   "lng": 105.852601,
+   "address": "45 Phố Hàng Bài, Hàng Bài, Hoàn Kiếm, Hà Nội",
+   "phone": "+84 24 3825 3911",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/1089076699"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/136258265",
+   "name": "Trung tâm Chiếu phim Quốc gia",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.016779,
+   "lng": 105.815851,
+   "address": "87 Phố Láng Hạ, Thành Công, Ba Đình, Hà Nội",
+   "phone": "+84 2435141791",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/136258265"
+    },
+    {
+     "source": "overture",
+     "id": "93e4e885-3587-4fa1-bd8e-caca8e8d0231"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:38ae58c6-bbee-4bee-b672-0f097106ad7c",
+   "name": "Trần sao cửa sổ trời - Starlight Roof",
+   "chain": "Starlight",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.029145,
+   "lng": 105.758382,
+   "address": "304 Phố Nguyễn Văn Giáp",
+   "phone": "+84814519111",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "38ae58c6-bbee-4bee-b672-0f097106ad7c"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:7de6debc-5b1e-494b-bb82-be6016c25f64",
+   "name": "VST StarLight - Led Cầu Thang Thông Minh",
+   "chain": "Starlight",
+   "provinceSlug": "ha-noi",
+   "provinceName": "Hà Nội",
+   "lat": 21.063947,
+   "lng": 105.72091,
+   "address": "Cụm CN Lai xá -Kim Chung - Hoài Đức",
+   "phone": "+84987967095",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "7de6debc-5b1e-494b-bb82-be6016c25f64"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:90d356b0-53b2-470a-9acc-09fad6e42b2c",
+   "name": "CGV Vincom Hà Tĩnh",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ha-tinh",
+   "provinceName": "Hà Tĩnh",
+   "lat": 18.337473,
+   "lng": 105.895594,
+   "address": "Tầng 3, Trung tâm Thương mại Vincom Plaza",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "90d356b0-53b2-470a-9acc-09fad6e42b2c"
+    },
+    {
+     "source": "overture",
+     "id": "b65e5854-96a6-4f6e-af4c-ac39a2b4f3e7"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:88fd6ec0-d1da-4309-986e-30578a6d9b96",
+   "name": "HỒNG LĨNH Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-tinh",
+   "provinceName": "Hà Tĩnh",
+   "lat": 18.53673,
+   "lng": 105.70285,
+   "address": "165 Đường Nguyễn Ái Quốc",
+   "phone": "+84914869338",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "88fd6ec0-d1da-4309-986e-30578a6d9b96"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/557053007",
+   "name": "Rạp 26-3",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ha-tinh",
+   "provinceName": "Hà Tĩnh",
+   "lat": 18.339614,
+   "lng": 105.903697,
+   "address": "78 Đường Phan Đình Phùng",
+   "phone": "+84393855426",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/557053007"
+    },
+    {
+     "source": "overture",
+     "id": "c98c2cc8-de18-4d58-ac8e-9729938ea566"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/6361980930",
+   "name": "CGV Hải Phòng",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 20.846622,
+   "lng": 106.706722,
+   "address": "Tầng 5, TD Plaza Ngã 5 sân bay Cát Bi, Lê Hồng Phong, Q. Ngô Quyền, Tp. Hải Phòng",
+   "phone": "+84313653333",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/6361980930"
+    },
+    {
+     "source": "overture",
+     "id": "84a96fa7-f2ca-4b9d-88ce-39b8c42d3943"
+    },
+    {
+     "source": "overture",
+     "id": "6f80abd5-e6ce-4ac7-b716-789c579c4df5"
+    },
+    {
+     "source": "osm",
+     "id": "node/8041734585"
+    },
+    {
+     "source": "overture",
+     "id": "6405087e-af0a-47d7-b8ae-058566853a7d"
+    },
+    {
+     "source": "overture",
+     "id": "ed86d452-932a-4cdd-b8c8-23ba4c2a75ee"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/8041723089",
+   "name": "CGV Vincom Imperia - Rạp chiếu phim",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 20.8631,
+   "lng": 106.662212,
+   "address": "Tầng 4, Vincom Plaza Imperia Hải Phòng",
+   "phone": "0966790630",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/8041723089"
+    },
+    {
+     "source": "overture",
+     "id": "6ea8fa3e-c17d-4d20-a8e3-b1a81ea3aefd"
+    },
+    {
+     "source": "overture",
+     "id": "be55d412-e9ce-4394-9279-3dc49ba1d12c"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/14276451402",
+   "name": "GalaxyCinema",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 20.856323,
+   "lng": 106.68623,
+   "address": "104 P. Lương Khánh Thiện",
+   "phone": "+84902007772",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/14276451402"
+    },
+    {
+     "source": "overture",
+     "id": "80f5c575-1f72-40ac-b9cb-ae6a96c7c172"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:0366dc99-4ca8-4628-b92c-b4d13251346a",
+   "name": "Lotte Cinema Ngô Quyền",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 20.930035,
+   "lng": 106.314187,
+   "address": "TTTM Đỗ Gia Palace, 248 Ngô Quyền",
+   "phone": "+842203838511",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "0366dc99-4ca8-4628-b92c-b4d13251346a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:5c45ea3c-8258-431f-8972-cf3ea448e9c5",
+   "name": "Lotte Vincom Hai Phong",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 20.865856,
+   "lng": 106.691326,
+   "address": "Phố Lê Thánh Tông",
+   "phone": "+84313677656",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "5c45ea3c-8258-431f-8972-cf3ea448e9c5"
+    },
+    {
+     "source": "overture",
+     "id": "0e55e9b5-28c1-4511-b687-c12aca15488d"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:32782dc3-412f-483a-9d99-6aaf6d4da499",
+   "name": "Cinema 35 Phương Lưu",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 20.847823,
+   "lng": 106.716557,
+   "address": "35 Phương Lưu, Đông Hải, Hải Phòng",
+   "phone": "+84904295698",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "32782dc3-412f-483a-9d99-6aaf6d4da499"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/3939072232",
+   "name": "RameStar",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 20.928168,
+   "lng": 106.303154,
+   "address": "72 Thanh Bình, Hải Dương",
+   "phone": "+84982595555",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/3939072232"
+    },
+    {
+     "source": "overture",
+     "id": "c01ad4d5-5a10-430e-bf8f-d2927dee41aa"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/242184084",
+   "name": "Rạp Công Nhân",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 20.854243,
+   "lng": 106.683928,
+   "address": "111 P. Cầu Đất",
+   "phone": "+842253859998",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/242184084"
+    },
+    {
+     "source": "overture",
+     "id": "68779fde-9228-41fa-bd2a-5d22a74f6c1d"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/242183725",
+   "name": "Rạp Lê Văn Tám",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 20.85486,
+   "lng": 106.680288,
+   "address": "25 P. Mê Linh",
+   "phone": "+84313859338",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/242183725"
+    },
+    {
+     "source": "overture",
+     "id": "8ef0e88f-5de9-4e7d-83db-33849486ae78"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/3697284586",
+   "name": "Venus Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 20.934319,
+   "lng": 106.318277,
+   "address": "64 Đường Nguyễn Văn Linh",
+   "phone": "+84 90 442 54 35",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/3697284586"
+    },
+    {
+     "source": "overture",
+     "id": "c00f6ebf-1189-418a-ad4e-ad128bd0c4b5"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:59cda0d6-1960-4e25-910f-2cd15054897f",
+   "name": "Venus Cinema Chí Linh",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "hai-phong",
+   "provinceName": "Hải Phòng",
+   "lat": 21.10997,
+   "lng": 106.390889,
+   "address": "Ngõ 1 Bà Triệu",
+   "phone": "+84983425435",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "59cda0d6-1960-4e25-910f-2cd15054897f"
+    },
+    {
+     "source": "overture",
+     "id": "b2e8a79d-28f7-4e8d-9c6b-0051c10f455e"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4531683590",
+   "name": "BHD Cinema",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.802497,
+   "lng": 106.741551,
+   "address": "TTTM Vincom Mega Mall, 159 Võ Nguyên Giáp",
+   "phone": "+842837446969",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4531683590"
+    },
+    {
+     "source": "overture",
+     "id": "c461f5cf-fe12-4d0d-9e61-f999b6df509a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:e026d7c9-f62b-420a-a03a-6e645f47e9d0",
+   "name": "BHD Icon 68",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.771815,
+   "lng": 106.704493,
+   "address": "Tháp Tài Chính Bitexco, 2 Hải Triều",
+   "phone": "+842839156161",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "e026d7c9-f62b-420a-a03a-6e645f47e9d0"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:23b16241-248f-4213-b542-34339476c024",
+   "name": "BHD Star Cineplex 3/2",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.775819,
+   "lng": 106.680498,
+   "address": "Vincom Plaza 3/2, 3C 3 Tháng 2",
+   "phone": "+842862645821",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "23b16241-248f-4213-b542-34339476c024"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:711edfc6-b1aa-4bd2-81f9-a50ce7dfafc4",
+   "name": "BHD Star Cineplex Vincom Quang Trung",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.829358,
+   "lng": 106.672364,
+   "address": "190 Quang Trung",
+   "phone": "+842839892468",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "711edfc6-b1aa-4bd2-81f9-a50ce7dfafc4"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10294185711",
+   "name": "BHD Star Lê Văn Việt",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.845042,
+   "lng": 106.778734,
+   "address": "Hồ Chí Minh",
+   "phone": "+842837367070",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10294185711"
+    },
+    {
+     "source": "overture",
+     "id": "81421e7c-0188-4f9e-aebf-d312ad0e7194"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:0d62f43d-a700-4530-b3b1-1d54839694b9",
+   "name": "BHD Star Satra Phạm Hùng",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.733571,
+   "lng": 106.674642,
+   "address": "Siêu Thị Satra, C6/27 Đ. Phạm Hùng",
+   "phone": "+842837589143",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "0d62f43d-a700-4530-b3b1-1d54839694b9"
+    },
+    {
+     "source": "overture",
+     "id": "837b9870-88fb-4c8e-b922-5b06daecaae8"
+    },
+    {
+     "source": "overture",
+     "id": "c869be1d-b842-4702-b4a7-5af016fb0e06"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:140a76d4-429e-4154-9f7a-b5c2c3832e46",
+   "name": "Rap Chieu Phim BHD",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.768071,
+   "lng": 106.660854,
+   "address": "666 Đường 3 Tháng 2",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "140a76d4-429e-4154-9f7a-b5c2c3832e46"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:07cc8291-9bf8-4e2d-a6cc-18588ec8b52c",
+   "name": "Trường Quay BHD Q.9",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.814229,
+   "lng": 106.773197,
+   "address": "90/9 Đường Số 9",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "07cc8291-9bf8-4e2d-a6cc-18588ec8b52c"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/14309528878",
+   "name": "Beta Cinemas Hồ Chí Minh",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.485903,
+   "lng": 107.456075,
+   "address": "Hồ Chí Minh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/14309528878"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:2d4d7d6a-5dd3-44fe-88c7-56b4aa02388d",
+   "name": "Beta Cinemas Lý Thường Kiệt",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.974751,
+   "lng": 106.65566,
+   "address": "2 Đường Lý Thường Kiệt",
+   "phone": "+84934573748",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "2d4d7d6a-5dd3-44fe-88c7-56b4aa02388d"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:81f69cec-540a-4b1c-8c25-1d0753c3508f",
+   "name": "Beta Cinemas Nowzone",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.764335,
+   "lng": 106.682445,
+   "address": "TTTM Nowzone, 235 Nguyễn Văn Cừ",
+   "phone": "+841900636807",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "81f69cec-540a-4b1c-8c25-1d0753c3508f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:97cc42d7-2bad-4ed2-be85-b0f5f8f62552",
+   "name": "Beta Cinemas Ung Văn Khiêm",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.808913,
+   "lng": 106.713325,
+   "address": "tòa nhà PAX SKY, 26 Đ. Ung Văn Khiêm",
+   "phone": "+84969874873",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "97cc42d7-2bad-4ed2-be85-b0f5f8f62552"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:db777d5e-6aa7-4339-9fb2-b93e77d89678",
+   "name": "Beta Tân Uyên",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 11.061209,
+   "lng": 106.79549,
+   "address": "TTTM Biconsi",
+   "phone": "+84937905925",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "db777d5e-6aa7-4339-9fb2-b93e77d89678"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:6683be70-f23e-4a41-95f8-fa4d13833689",
+   "name": "Rap Phim Beta Cinemas Quang Trung",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.83542,
+   "lng": 106.660524,
+   "address": "647 Quang Trung",
+   "phone": "+84706075509",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "6683be70-f23e-4a41-95f8-fa4d13833689"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/2230350591",
+   "name": "Rạp Phim Văn Hoa",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.792449,
+   "lng": 106.69386,
+   "address": "62 Trần Quang Khải",
+   "phone": "+842873009079",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/2230350591"
+    },
+    {
+     "source": "osm",
+     "id": "node/9584833482"
+    },
+    {
+     "source": "overture",
+     "id": "14111e3d-a4e7-417b-b77b-ea578a4f6861"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/9593240670",
+   "name": "CGV Bình Dương Square",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.984622,
+   "lng": 106.667212,
+   "address": "Hồ Chí Minh",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/9593240670"
+    },
+    {
+     "source": "overture",
+     "id": "b99d06b3-f0af-4ee8-be63-71cb27c6a662"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:86ac8b3c-ff3e-4037-b26c-3bf2817cd57f",
+   "name": "CGV Celadon Tân Phú TPHCM",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.805974,
+   "lng": 106.604456,
+   "address": "30 Bờ Bao Tân Thắng",
+   "phone": "+84862651000",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "86ac8b3c-ff3e-4037-b26c-3bf2817cd57f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:f06d2f63-ea26-425a-af12-41f96685e477",
+   "name": "CGV Cinemas - Golden Plaza",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.753176,
+   "lng": 106.654534,
+   "address": "922 Đường Nguyễn Trãi",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "f06d2f63-ea26-425a-af12-41f96685e477"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4582739275",
+   "name": "CGV Cinemas AEON Bình Tân",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.743341,
+   "lng": 106.613147,
+   "address": "1 Đường số 17A, Bình Trị Đông B, Bình Tân, Hồ Chí Minh",
+   "phone": "+10836202288",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4582739275"
+    },
+    {
+     "source": "overture",
+     "id": "f5693368-5800-4344-9493-171b461aadb2"
+    },
+    {
+     "source": "overture",
+     "id": "2ba41f99-835d-4a7b-8269-6e3ef3ababb5"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:ddc156c7-33da-49b1-89e4-52ae6ba0459a",
+   "name": "CGV Cinemas Hùng Vương Plaza",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.764155,
+   "lng": 106.679708,
+   "address": "7 Đường Hùng Vương",
+   "phone": "+84822220388",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "ddc156c7-33da-49b1-89e4-52ae6ba0459a"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/5604232037",
+   "name": "CGV Cinemas Lam Sơn Square - Vũng Tàu",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.348874,
+   "lng": 107.073964,
+   "address": "4th Flr, Lam Sơn Square, 9 Lê Lợi",
+   "phone": "064 351 33 66",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/5604232037"
+    },
+    {
+     "source": "overture",
+     "id": "5e9f812b-7214-4107-a5ee-39054c9d8949"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/6914031593",
+   "name": "CGV Cinemas Lapen Center Vũng Tàu",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.369911,
+   "lng": 107.085221,
+   "address": "Tầng 4 Lapen Center, 33A Đường 30 Tháng 4",
+   "phone": "+84303675393",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/6914031593"
+    },
+    {
+     "source": "overture",
+     "id": "e72e6df0-edab-4e24-baad-d71635c39c15"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/1987338321",
+   "name": "CGV Cinemas Nguyễn Văn Linh",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.729061,
+   "lng": 106.719173,
+   "address": "101 Nguyễn Văn Linh",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/1987338321"
+    },
+    {
+     "source": "overture",
+     "id": "283e52b0-e8c3-41e0-82a7-011be802afd7"
+    },
+    {
+     "source": "osm",
+     "id": "node/7018017792"
+    },
+    {
+     "source": "overture",
+     "id": "828b9395-6832-47cf-964b-e4762f13498a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d1df3fbf-1d90-4636-9056-f780ceb32161",
+   "name": "CGV Cinemas Parkson Paragon quận 7",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.72953,
+   "lng": 106.721702,
+   "address": "3 Đường Nguyễn Lương Bằng",
+   "phone": "+84854160088",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d1df3fbf-1d90-4636-9056-f780ceb32161"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:b2e7bd66-02e5-41e8-b2bd-25b7307f6a53",
+   "name": "CGV Cinemas Phan Văn Trị",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.826758,
+   "lng": 106.689014,
+   "address": "12 Đường Phan Văn Trị",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "b2e7bd66-02e5-41e8-b2bd-25b7307f6a53"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4054859161",
+   "name": "CGV Cinemas Thủ Đức",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.850104,
+   "lng": 106.765309,
+   "address": "216 Võ Văn Ngân",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4054859161"
+    },
+    {
+     "source": "overture",
+     "id": "73852131-3688-4e4a-8796-e328f349f30d"
+    },
+    {
+     "source": "overture",
+     "id": "ec18c7c6-f2a7-4a20-ba0e-baa1f105f985"
+    },
+    {
+     "source": "overture",
+     "id": "97d04357-9752-42f2-81d8-cb1f39284944"
+    },
+    {
+     "source": "overture",
+     "id": "8537dab4-e451-4b65-ad50-21f3698f692c"
+    },
+    {
+     "source": "overture",
+     "id": "17c4ffe2-7127-4e68-834b-51afde0210bc"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/6220729005",
+   "name": "CGV Cinemas Điện Biên Phủ",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.79526,
+   "lng": 106.721746,
+   "address": "VINCOM, 772 Điện Biên Phủ",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/6220729005"
+    },
+    {
+     "source": "overture",
+     "id": "aa0121e6-5d97-42c7-acad-e18f9b0b5a02"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/11365765737",
+   "name": "CGV IMax - Hoàng Văn Thụ",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.798931,
+   "lng": 106.660146,
+   "address": "415 Hoang Van Thu St.",
+   "phone": "+84838110808",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/11365765737"
+    },
+    {
+     "source": "overture",
+     "id": "dd80b80d-9553-4773-83dc-7455e43b87c5"
+    },
+    {
+     "source": "overture",
+     "id": "031e7d94-b350-4581-8857-5412f1564ba2"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/7018017805",
+   "name": "CGV Liberty Citypoint",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.77477,
+   "lng": 106.700733,
+   "address": "59-61 Đường Pasteur, Bến Nghé, District 1",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/7018017805"
+    },
+    {
+     "source": "overture",
+     "id": "f0882e5b-259c-4487-a2bd-f864cf9c1740"
+    },
+    {
+     "source": "overture",
+     "id": "5dc09738-d6d6-4ee3-a403-d13842c3399f"
+    },
+    {
+     "source": "overture",
+     "id": "4879446d-33c2-428d-a1f4-bb2d4e46f42b"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c04e217f-3eab-4717-91f7-3a6b0c8aa525",
+   "name": "CGV Lý Chính Thắng",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.789188,
+   "lng": 106.685626,
+   "address": "83 Lý Chính Thắng",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c04e217f-3eab-4717-91f7-3a6b0c8aa525"
+    },
+    {
+     "source": "overture",
+     "id": "d1f01a4e-fda9-4eea-96ac-7184d645f157"
+    },
+    {
+     "source": "overture",
+     "id": "6fc1d00d-5682-4256-b98c-569a088f1bcc"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/5345125750",
+   "name": "CGV Pandora City",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.806242,
+   "lng": 106.634131,
+   "address": "Pandora, 1/1 Đường Trường Chinh",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/5345125750"
+    },
+    {
+     "source": "overture",
+     "id": "340251e6-ef81-4432-b7d8-599122567e3b"
+    },
+    {
+     "source": "overture",
+     "id": "77490a9a-1313-4aef-90b5-94978715fcfe"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:ef839873-7cb1-496f-90c5-47c06c2af334",
+   "name": "CGV Pearl Plaza",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.800036,
+   "lng": 106.718383,
+   "address": "Pearl Plaza, 561A Điện Biên Phủ",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "ef839873-7cb1-496f-90c5-47c06c2af334"
+    },
+    {
+     "source": "overture",
+     "id": "b6b83675-4b07-4c78-b075-12112709b236"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:fce33bd9-d609-45f8-a3b3-df64a08e33a0",
+   "name": "CGV Saigonres Nguyễn Xí",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.816418,
+   "lng": 106.70721,
+   "address": "Saigonres Plaza, Tầng 4-5,Saigonres Plaza 188, 79-81 Đ. Nguyễn Xí",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "fce33bd9-d609-45f8-a3b3-df64a08e33a0"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:bfd89800-c6d9-4a11-8bf1-61efd6e2204e",
+   "name": "CGV Satra Củ Chi",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.983806,
+   "lng": 106.579588,
+   "address": "Tầng 3, TTTM Satra Củ Chi, Số 1239, Tỉnh Lộ 8, Ấp Thạnh An Xã Trung An, Huyện C, 1239 TL8",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "bfd89800-c6d9-4a11-8bf1-61efd6e2204e"
+    },
+    {
+     "source": "overture",
+     "id": "351f395b-905d-48e1-a69c-edc406aa7c46"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10089399922",
+   "name": "CGV Thao Dien Pearl",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.801494,
+   "lng": 106.733173,
+   "address": "12 Quốc Hương, Thảo Điền, 2, Thành phố Thủ Đức",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10089399922"
+    },
+    {
+     "source": "overture",
+     "id": "3defc3d5-47d1-4f1b-9bc9-87f503ef0eb1"
+    },
+    {
+     "source": "overture",
+     "id": "6b745f1d-700f-4fe3-9ef9-81faf0452172"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4451914689",
+   "name": "CGV Vincom Đồng Khởi",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.778186,
+   "lng": 106.701785,
+   "address": "72 Lê Thánh Tôn",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4451914689"
+    },
+    {
+     "source": "overture",
+     "id": "df4f41d1-7f82-4f7a-bc22-a602ac470eca"
+    },
+    {
+     "source": "overture",
+     "id": "2291aaf4-2be4-408f-89d9-b1a8d2765952"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:ced323ff-f1b0-4f19-9c8d-e6bebd0eafe7",
+   "name": "CJ CGV Vietnam Co. Ltd.",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.769629,
+   "lng": 106.663596,
+   "address": "Tầng 2 Rivera Park Saigon King Center, Thành Thái",
+   "phone": "+842836365757",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "ced323ff-f1b0-4f19-9c8d-e6bebd0eafe7"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:6b6826dd-202e-435c-8aa2-3b21756521f5",
+   "name": "Cgv Cinema Aeon Mall Canary Bình Dương",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.931239,
+   "lng": 106.71169,
+   "address": "2 Đại Lộ Bình Dương",
+   "phone": "+84303675393",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "6b6826dd-202e-435c-8aa2-3b21756521f5"
+    },
+    {
+     "source": "overture",
+     "id": "b14c57ca-4a20-4f65-bd7d-ad6b58f38837"
+    },
+    {
+     "source": "overture",
+     "id": "b3cab270-de92-4b3e-a52f-f24dcc1cc519"
+    },
+    {
+     "source": "overture",
+     "id": "1bf31184-a1e3-438d-a2b5-4cd55434ce91"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/14289406701",
+   "name": "Cinesphere",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.770588,
+   "lng": 106.669918,
+   "address": "11 Sư Vạn Hạnh, Hòa Hưng, Thành phố Hồ Chí Minh",
+   "phone": "+84-0366-431-179",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/14289406701"
+    },
+    {
+     "source": "overture",
+     "id": "59099d57-7966-4dae-a28c-066a3f71bc9d"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4851518925",
+   "name": "Gosell Việt Nam",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.813077,
+   "lng": 106.665645,
+   "address": "60A Đường Trường Sơn",
+   "phone": "+84981005390",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4851518925"
+    },
+    {
+     "source": "overture",
+     "id": "dc4e931c-ea4f-4a18-8be6-bdb2d7858fce"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/1773230323",
+   "name": "Megastar",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.756109,
+   "lng": 106.662849,
+   "address": "126 Đ. Hồng Bàng",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/1773230323"
+    },
+    {
+     "source": "overture",
+     "id": "821eadef-00bb-46b2-8748-1c9a4af4789f"
+    },
+    {
+     "source": "overture",
+     "id": "f796a2c3-a36a-49e2-a246-9f4389f7a0e1"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:0e398844-77fc-4c11-b758-b6f3589272ae",
+   "name": "CineStar Satra Võ Văn Kiệt",
+   "chain": "Cinestar",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.743752,
+   "lng": 106.648424,
+   "address": "1466 Võ Văn Kiệt",
+   "phone": "+8419000085",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "0e398844-77fc-4c11-b758-b6f3589272ae"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10294185709",
+   "name": "Cinestar Bình Dương",
+   "chain": "Cinestar",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.875382,
+   "lng": 106.800706,
+   "address": "Quảng Trường Sáng Tạo, Đông Hòa, Dĩ An, Thủ Dầu Một",
+   "phone": "+8419000085",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10294185709"
+    },
+    {
+     "source": "overture",
+     "id": "25482d4b-06f2-4355-90b5-36032dfafd2f"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/465285624",
+   "name": "Cinestar Cinema Quốc Thanh",
+   "chain": "Cinestar",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.763784,
+   "lng": 106.6875,
+   "address": "271 Đường Nguyễn Trãi",
+   "phone": "+8419000085",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/465285624"
+    },
+    {
+     "source": "overture",
+     "id": "cb577f8c-6021-4e45-a2d9-944ea06dadba"
+    },
+    {
+     "source": "overture",
+     "id": "8cccac74-8ba0-4ec5-afe7-41ad3ab9f67b"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:867701e3-0cae-48c6-a176-2f181eba33f2",
+   "name": "Cinestar làng đại học",
+   "chain": "Cinestar",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.88751,
+   "lng": 106.790794,
+   "address": "Đông Hòa",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "867701e3-0cae-48c6-a176-2f181eba33f2"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:668c57ea-e722-4bc1-ac24-4817ba3c8a5b",
+   "name": "Cinestar Đà Lạt",
+   "chain": "Cinestar",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.864186,
+   "lng": 106.635237,
+   "address": "Quảng trường Lâm Viên",
+   "phone": "+842633969969",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "668c57ea-e722-4bc1-ac24-4817ba3c8a5b"
+    },
+    {
+     "source": "overture",
+     "id": "2312cc06-7c2c-411c-9153-2dc0b06e9096"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c6c6310b-6778-40fa-ae76-98ea52d39e09",
+   "name": "DCINE Bến Thành",
+   "chain": "DCINE",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.783829,
+   "lng": 106.700792,
+   "address": "6 Mạc Đĩnh Chi",
+   "phone": "+84868760420",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c6c6310b-6778-40fa-ae76-98ea52d39e09"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:404563e5-0c2d-4cc8-a6c1-8dae074b6b45",
+   "name": "Galaxy Cine+",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.841544,
+   "lng": 106.637308,
+   "address": "385 Phan Huy Ích",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "404563e5-0c2d-4cc8-a6c1-8dae074b6b45"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:8a77c289-e1e1-4935-95c5-5c031f070741",
+   "name": "Galaxy CineX Thiso Mall Sala",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.771541,
+   "lng": 106.72177,
+   "address": "Tầng3, TTTM Thiso Mall Sala, 10 Mai Chí Thọ",
+   "phone": "+842839333303",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "8a77c289-e1e1-4935-95c5-5c031f070741"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/9587016883",
+   "name": "Galaxy Cinema - Nguyễn Văn Quá",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.847011,
+   "lng": 106.63419,
+   "address": "119B Đ. Nguyễn Văn Quá",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/9587016883"
+    },
+    {
+     "source": "overture",
+     "id": "c6845170-f346-4530-a927-fabe5971dd7b"
+    },
+    {
+     "source": "overture",
+     "id": "e7f6dea6-daba-469b-86d8-8773173ab531"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:fb11c6de-9b0f-43a1-9fb5-5f96162f1ca1",
+   "name": "Galaxy Cinema - Phạm Văn Chí",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.740821,
+   "lng": 106.638318,
+   "address": "634 Đường Phạm Văn Chí",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "fb11c6de-9b0f-43a1-9fb5-5f96162f1ca1"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4488323590",
+   "name": "Galaxy Cinema Kinh Duong Vuong",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.75035,
+   "lng": 106.628182,
+   "address": "718bis Đ. Kinh Dương Vương",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4488323590"
+    },
+    {
+     "source": "overture",
+     "id": "e033d621-8f94-4b2c-9d73-bd0f55f195b9"
+    },
+    {
+     "source": "overture",
+     "id": "51f8cf80-cc6f-42fb-8f1b-6f42e710dfee"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/112176431",
+   "name": "Galaxy Cinema Nguyễn Du",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.773234,
+   "lng": 106.692971,
+   "address": "116 Nguyễn Du",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/112176431"
+    },
+    {
+     "source": "overture",
+     "id": "0e837999-7fd6-4a20-b680-ff6efcd2d958"
+    },
+    {
+     "source": "overture",
+     "id": "480ee3c9-71be-4bab-92fe-865520b0beec"
+    },
+    {
+     "source": "overture",
+     "id": "b35264ff-de4d-4858-a5aa-89cc304748af"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/9545371820",
+   "name": "Galaxy Cinema Quang Trung",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.834806,
+   "lng": 106.662187,
+   "address": "304A Đường Quang Trung, Phường 11, Gò Vấp",
+   "phone": "+842839333303",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/9545371820"
+    },
+    {
+     "source": "overture",
+     "id": "bc2f5282-0667-4e09-9675-20c1e3454e44"
+    },
+    {
+     "source": "overture",
+     "id": "db1c2e2a-03d5-432c-9316-c9a06a39866d"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/516639214",
+   "name": "Galaxy Cinema Trung Chánh",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.855275,
+   "lng": 106.608465,
+   "address": "Trung Tâm Văn Hóa Quận 12 - Hông Trung Tâm Văn Hóa Quận 12 - Nguyễn Ảnh Thủ, P, 09 QL22",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/516639214"
+    },
+    {
+     "source": "overture",
+     "id": "1815529e-22c9-4fce-bbb2-c2063eb11ba7"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/421603555",
+   "name": "Galaxy Cinema Tân Bình",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.790745,
+   "lng": 106.640665,
+   "address": "246 Đ. Nguyễn Hồng Đào",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/421603555"
+    },
+    {
+     "source": "overture",
+     "id": "1b41590d-0949-4b0b-9a19-66cb2b74af78"
+    },
+    {
+     "source": "overture",
+     "id": "f5c3f8b8-5ce3-473f-b070-81e40bf40f20"
+    },
+    {
+     "source": "overture",
+     "id": "a070536a-0fdd-434b-ac91-3b8c37afd997"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:15456f53-07d3-4024-96ee-a3719b839896",
+   "name": "Galaxy GO! An Lạc",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.730582,
+   "lng": 106.604054,
+   "address": "1231 QL1A",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "15456f53-07d3-4024-96ee-a3719b839896"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:7b6f0349-bc6a-4f5a-b8f8-0badaf396bf7",
+   "name": "Galaxy GO! Mall",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.492512,
+   "lng": 107.168676,
+   "address": "2a Nguyễn Đình Chiểu",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "7b6f0349-bc6a-4f5a-b8f8-0badaf396bf7"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:135652c3-2e76-49c4-b923-bd1ba33ec7ee",
+   "name": "Galaxy Huỳnh Tấn Phát",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.712201,
+   "lng": 106.736283,
+   "address": "1362 Huỳnh Tấn Phát",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "135652c3-2e76-49c4-b923-bd1ba33ec7ee"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10294185722",
+   "name": "Galaxy Linh Trung",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.867819,
+   "lng": 106.776564,
+   "address": "Đại Siêu Thị Co. Opxtra Thủ Đức, 934 Đường Quốc Lộ 1A",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10294185722"
+    },
+    {
+     "source": "overture",
+     "id": "b4f544d1-93c5-4aea-93bf-04d5468b76d4"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:b8119779-0efb-4acb-be12-b4b3de985117",
+   "name": "Galaxy Parc Mall",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.740441,
+   "lng": 106.678738,
+   "address": "549 Đ. Tạ Quang Bửu",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "b8119779-0efb-4acb-be12-b4b3de985117"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:57cb925c-8059-417c-b32f-c08e5bd26f45",
+   "name": "Galaxy Truong Chinh",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.818024,
+   "lng": 106.631002,
+   "address": "Co.opMart TTTM Thắng Lợi, 2 Trường Chinh",
+   "phone": "+842839333303",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "57cb925c-8059-417c-b32f-c08e5bd26f45"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:077f1ea1-3bb0-42b4-adec-983c810a2fec",
+   "name": "LOTTE Cinema Cộng Hòa",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.801095,
+   "lng": 106.653025,
+   "address": "20 Cộng Hòa",
+   "phone": "+842837752526",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "077f1ea1-3bb0-42b4-adec-983c810a2fec"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/5599783332",
+   "name": "LOTTE Cinema Vũng Tàu",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.350134,
+   "lng": 107.094337,
+   "address": "Hồ Chí Minh",
+   "phone": "+84908346141",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/5599783332"
+    },
+    {
+     "source": "overture",
+     "id": "ca38ac39-d60f-48dc-8f81-d06f7b0890d4"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:44258531-1123-40e6-8d25-7d147fd58e10",
+   "name": "Lotte Cinema Bình Dương",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.904973,
+   "lng": 106.711714,
+   "address": "Lotte Mart, Đại lộ Bình Dương",
+   "phone": "+842743990007",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "44258531-1123-40e6-8d25-7d147fd58e10"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10294185710",
+   "name": "Lotte Cinema Dĩ An",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.908428,
+   "lng": 106.741481,
+   "address": "Hồ Chí Minh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10294185710"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:f5381da0-f0a1-4a96-921d-59b17386b893",
+   "name": "Lotte Cinema Gò Vấp",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.838175,
+   "lng": 106.671232,
+   "address": "Lotte Mart, 242 Đ. Nguyễn Văn Lượng",
+   "phone": "+842836202151",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "f5381da0-f0a1-4a96-921d-59b17386b893"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/2623036407",
+   "name": "Lotte Cinema Hồ Chí Minh",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.801591,
+   "lng": 106.747361,
+   "address": "Hồ Chí Minh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/2623036407"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10294185713",
+   "name": "Lotte Cinema Moonlight",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.844456,
+   "lng": 106.762787,
+   "address": "Hồ Chí Minh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10294185713"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/2355599823",
+   "name": "Lotte Cinema Nguyễn Hữu Thọ",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.741431,
+   "lng": 106.701742,
+   "address": "Lotte Mart, 469 Nguyễn Hữu Thọ",
+   "phone": "+84837752521",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/2355599823"
+    },
+    {
+     "source": "overture",
+     "id": "df430f91-745c-4a03-8ded-a45487f61ae3"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c1273ae1-61fb-42fd-8c8c-8c49b052185f",
+   "name": "Lotte Cinema Q7",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.76112,
+   "lng": 106.70345,
+   "address": "Hồ Chí Minh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c1273ae1-61fb-42fd-8c8c-8c49b052185f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:31bc3e8e-75de-48d7-9405-c6173d6234dd",
+   "name": "Lotte Cinema Quận 2",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.845788,
+   "lng": 106.775126,
+   "address": "Đường Tạ Thu Thâu",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "31bc3e8e-75de-48d7-9405-c6173d6234dd"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/10294185723",
+   "name": "Lotte Cinema Thủ Đức",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.870879,
+   "lng": 106.769011,
+   "address": "Tòa nhà Joy Citipoint, 2 QL1A",
+   "phone": "+842837245751",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/10294185723"
+    },
+    {
+     "source": "overture",
+     "id": "c778942d-cfef-4da2-8a91-913e2c66da46"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:64a34cb5-f427-4095-98c7-8796c2863424",
+   "name": "Phim Chiếu Rạp - Lotte Cinema",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.770088,
+   "lng": 106.697439,
+   "address": "1 Đường Trần Hưng Đạo",
+   "phone": "+84965822444",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "64a34cb5-f427-4095-98c7-8796c2863424"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:950364c7-31f5-4aeb-9a79-5966c4a65d72",
+   "name": "Mega GS Cinemas",
+   "chain": "Mega GS Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.769037,
+   "lng": 106.682988,
+   "address": "19 Cao Thắng",
+   "phone": "+842862649911",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "950364c7-31f5-4aeb-9a79-5966c4a65d72"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/1042623106",
+   "name": "Mega GS Lý Chính Thắng",
+   "chain": "Mega GS Cinemas",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.780642,
+   "lng": 106.682391,
+   "address": "212 Đường Lý Chính Thắng",
+   "phone": "+842862823737",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/1042623106"
+    },
+    {
+     "source": "overture",
+     "id": "40faae54-3f4e-4aa4-b817-2ed36f86e97f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:f4aaca7f-f063-4036-b655-b75fe59e3e71",
+   "name": "BaRia Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.494658,
+   "lng": 107.173133,
+   "address": "Ward Vong Xoay, Cách Mạng Tháng Tám",
+   "phone": "+842543828817",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "f4aaca7f-f063-4036-b655-b75fe59e3e71"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:0c898223-9e15-447e-a999-aa608ea95523",
+   "name": "Beng Beng Cinema 69 Độc Lập",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.792106,
+   "lng": 106.633213,
+   "address": "69 Đường Độc Lập",
+   "phone": "+84862988883",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "0c898223-9e15-447e-a999-aa608ea95523"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:52fcd354-11d4-48d7-a931-c141cd172b7f",
+   "name": "Cinema 160",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.498484,
+   "lng": 107.172277,
+   "address": "160 Đường Nguyễn Thanh Đằng",
+   "phone": "+84915033739",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "52fcd354-11d4-48d7-a931-c141cd172b7f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:0c145435-5f00-49fc-97c5-93b63b41369c",
+   "name": "Cinema 4D Tutor",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.797876,
+   "lng": 106.673448,
+   "address": "159/8E Đường Hoàng Văn Thụ",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "0c145435-5f00-49fc-97c5-93b63b41369c"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:11ad8957-2216-4de2-8fc6-746a856c6419",
+   "name": "Cinema Tan Son Nhat",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.802092,
+   "lng": 106.665574,
+   "address": "Phan Dinh Giot",
+   "phone": "+84838421613",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "11ad8957-2216-4de2-8fc6-746a856c6419"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:abd44319-a0eb-48e2-a91e-e5ce66de51f8",
+   "name": "Gala Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.500668,
+   "lng": 107.178683,
+   "address": "84 Trần Hưng Đạo",
+   "phone": "+84902797984",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "abd44319-a0eb-48e2-a91e-e5ce66de51f8"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:474eb485-be1e-44ec-89d2-021b97e2fd6c",
+   "name": "Gala Cinema Vũng Tàu",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.36115,
+   "lng": 107.095892,
+   "address": "512a Nguyễn An Ninh",
+   "phone": "+84908073907",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "474eb485-be1e-44ec-89d2-021b97e2fd6c"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:bb04f246-dc63-48fb-a9ea-bf21375da7be",
+   "name": "Megastar 2",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.813158,
+   "lng": 106.665581,
+   "address": "60A Trường Sơn",
+   "phone": "+84862971981",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "bb04f246-dc63-48fb-a9ea-bf21375da7be"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:7e5873ad-360c-4f7b-aed4-514e4bb24b12",
+   "name": "Moon _ cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.66825,
+   "lng": 106.72462,
+   "address": "1 Đường Nguyễn Văn Tạo",
+   "phone": "+84936239071",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "7e5873ad-360c-4f7b-aed4-514e4bb24b12"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:3be662b2-b1a4-4b12-b952-6bc6e0f2b787",
+   "name": "New Star Media - Dcinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.79021,
+   "lng": 106.69577,
+   "address": "9/9 Đường Phan Tôn",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "3be662b2-b1a4-4b12-b952-6bc6e0f2b787"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c9510e17-ae16-43ca-a580-689442b99d24",
+   "name": "Rong Yang Theater",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.776254,
+   "lng": 106.692429,
+   "address": "Hồ Chí Minh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c9510e17-ae16-43ca-a580-689442b99d24"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d21aef75-5de3-4046-b477-04ebbf77d184",
+   "name": "Rạp Chiếu Phim - Couplecinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.8418,
+   "lng": 106.77177,
+   "address": "8B Đường Phan Chu Trinh",
+   "phone": "+842822422000",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d21aef75-5de3-4046-b477-04ebbf77d184"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/2947489934",
+   "name": "Rạp Chiếu Phim 3D",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.408198,
+   "lng": 106.956816,
+   "address": "Hồ Chí Minh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/2947489934"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:7e086b22-bebb-4df2-b650-f01c3f11be90",
+   "name": "Rạp Chiếu Phim Cũ",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.765451,
+   "lng": 106.662626,
+   "address": "606/11 Đường 3 Tháng 2",
+   "phone": "+842862768881",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "7e086b22-bebb-4df2-b650-f01c3f11be90"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d2222da2-3ddd-43d4-9846-bf6c93806bdb",
+   "name": "Rạp Chiếu Phim Cũ 2",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.770098,
+   "lng": 106.670239,
+   "address": "606/11 Đường 3 Tháng 2",
+   "phone": "+842862768881",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d2222da2-3ddd-43d4-9846-bf6c93806bdb"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:b271093b-53aa-4087-a520-25a7e7a2697e",
+   "name": "Rạp Chiếu Phim Vườn Lài",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.765403,
+   "lng": 106.674357,
+   "address": "22 Đường Vĩnh Viễn",
+   "phone": "+84838350247",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "b271093b-53aa-4087-a520-25a7e7a2697e"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:e18e6bd3-4d63-4c17-9a61-a21071679205",
+   "name": "Rạp Phim Cinemas",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.883312,
+   "lng": 106.616389,
+   "address": "Phường 8 Quận Gò Vấp Tp. Hồ Chí Minh",
+   "phone": "+84906038104",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "e18e6bd3-4d63-4c17-9a61-a21071679205"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/2230333450",
+   "name": "Rạp Phim Cầu Bông",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.791999,
+   "lng": 106.695281,
+   "address": "Hồ Chí Minh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/2230333450"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:2d0c7543-0fc9-4316-b2a0-172a0214040c",
+   "name": "Rạp Xem Phim Tốt",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.790764,
+   "lng": 106.640696,
+   "address": "246 Đ. Nguyễn Hồng Đào",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "2d0c7543-0fc9-4316-b2a0-172a0214040c"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/1536253296",
+   "name": "Rạp Đống Đa",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.753759,
+   "lng": 106.674112,
+   "address": "890 Đường Trần Hưng Ðạo",
+   "phone": "+84368799890",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/1536253296"
+    },
+    {
+     "source": "overture",
+     "id": "47b4c339-d582-4624-a422-45699c44417f"
+    },
+    {
+     "source": "overture",
+     "id": "6970a1b3-9516-4333-8a15-86f4972d0705"
+    },
+    {
+     "source": "overture",
+     "id": "0a7b7096-476d-429b-956f-b3f303f6d049"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:2351a93b-464e-4ec1-a67c-bf39a06cfc78",
+   "name": "Sài Thành Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.789943,
+   "lng": 106.620117,
+   "address": "313 Đường Tân Hương",
+   "phone": "+84938007576",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "2351a93b-464e-4ec1-a67c-bf39a06cfc78"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/259740199",
+   "name": "Việt Phú",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ho-chi-minh",
+   "provinceName": "Hồ Chí Minh",
+   "lat": 10.360119,
+   "lng": 107.078429,
+   "address": "7 Lê Hồng Phong",
+   "phone": "+842543573655",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/259740199"
+    },
+    {
+     "source": "overture",
+     "id": "9cfa742a-b9b2-4c1c-8427-12d5617bcd63"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:99809ab1-91b1-4a0e-8d3c-644bbc7663ba",
+   "name": "BHD Star Cineplex Vincom Huế",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "hue",
+   "provinceName": "Huế",
+   "lat": 16.462919,
+   "lng": 107.594374,
+   "address": "Vincom plaza, tầng 5, 50A Hùng Vương",
+   "phone": "+842346250238",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "99809ab1-91b1-4a0e-8d3c-644bbc7663ba"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:61e2b293-da25-48b2-8444-abef7017a1ac",
+   "name": "CGV Cinemas Huế",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "hue",
+   "provinceName": "Huế",
+   "lat": 16.465678,
+   "lng": 107.592223,
+   "address": "10 Đường Hùng Vương",
+   "phone": "+841222456153",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "61e2b293-da25-48b2-8444-abef7017a1ac"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/11062012507",
+   "name": "Cinestar Huế",
+   "chain": "Cinestar",
+   "provinceSlug": "hue",
+   "provinceName": "Huế",
+   "lat": 16.460784,
+   "lng": 107.589766,
+   "address": "25 Hai Bà Trưng",
+   "phone": "0234 7300 081",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/11062012507"
+    },
+    {
+     "source": "overture",
+     "id": "88aa9d1b-dc22-4c92-a141-a6a183d78d58"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d0beeb1e-69f0-47b0-944f-a5e006c938a1",
+   "name": "Galaxy Aeon Huế",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "hue",
+   "provinceName": "Huế",
+   "lat": 16.454782,
+   "lng": 107.615306,
+   "address": "TTTM Aeon Mall, 08 Võ Nguyên Giáp",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d0beeb1e-69f0-47b0-944f-a5e006c938a1"
+    },
+    {
+     "source": "overture",
+     "id": "fac40b6a-e11f-42e8-922e-7f0e76a527a8"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:273b02dc-ddfb-4e75-938b-e8daabc206eb",
+   "name": "Lotte Cinema Huế",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "hue",
+   "provinceName": "Huế",
+   "lat": 16.460357,
+   "lng": 107.59942,
+   "address": "GO Huế, 174 Bà Triệu",
+   "phone": "+842343828822",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "273b02dc-ddfb-4e75-938b-e8daabc206eb"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/1411210365",
+   "name": "DMZ",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "hue",
+   "provinceName": "Huế",
+   "lat": 16.47011,
+   "lng": 107.594023,
+   "address": "Huế",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/1411210365"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/7236821887",
+   "name": "CGV Cinemas Hưng Yên",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "hung-yen",
+   "provinceName": "Hưng Yên",
+   "lat": 20.952652,
+   "lng": 105.937611,
+   "address": "Hưng Yên",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/7236821887"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d3c53eca-e62a-41c2-898b-36abdd6e6dc9",
+   "name": "LOTTE Cinema Thái Bình - Vincom",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "hung-yen",
+   "provinceName": "Hưng Yên",
+   "lat": 20.444712,
+   "lng": 106.336933,
+   "address": "460 Lý Bôn",
+   "phone": "+842273839555",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d3c53eca-e62a-41c2-898b-36abdd6e6dc9"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/1279352560",
+   "name": "Rạp Phố Hiến",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "hung-yen",
+   "provinceName": "Hưng Yên",
+   "lat": 20.649147,
+   "lng": 106.057085,
+   "address": "1 Đường Nguyễn Thiện Thuật",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/1279352560"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/1518596489",
+   "name": "Rạp chiếu bóng Thống Nhất",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "hung-yen",
+   "provinceName": "Hưng Yên",
+   "lat": 20.449388,
+   "lng": 106.34259,
+   "address": "22 Phố Lê Lợi",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/1518596489"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c19ae15b-d3ef-45c9-831d-cbe5c187cfa3",
+   "name": "Beta Cineplex Nha Trang",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "khanh-hoa",
+   "provinceName": "Khánh Hòa",
+   "lat": 12.248937,
+   "lng": 109.193852,
+   "address": "10 Đ. Hoàng Hoa Thám",
+   "phone": "+84399475165",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c19ae15b-d3ef-45c9-831d-cbe5c187cfa3"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:109dd9bd-cc4d-4cfb-9578-fc21d4a61543",
+   "name": "CGV Big C Nha Trang",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "khanh-hoa",
+   "provinceName": "Khánh Hòa",
+   "lat": 12.256781,
+   "lng": 109.170172,
+   "address": "Tầng Trệt, Big C Nha Trang, Lô 4, Đường 19/5, Vĩnh Điềm Trung",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "109dd9bd-cc4d-4cfb-9578-fc21d4a61543"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:ea76d9e6-d1ee-41b6-b922-9ea1348bfd78",
+   "name": "Galaxy Nha Trang Center",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "khanh-hoa",
+   "provinceName": "Khánh Hòa",
+   "lat": 12.247997,
+   "lng": 109.196103,
+   "address": "20 Trần Phú",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "ea76d9e6-d1ee-41b6-b922-9ea1348bfd78"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/12914047734",
+   "name": "Lotte Cinema Nha Trang Thái Nguyên - Vincom",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "khanh-hoa",
+   "provinceName": "Khánh Hòa",
+   "lat": 12.248565,
+   "lng": 109.186722,
+   "address": "60 Thái Nguyên",
+   "phone": "+842583824884",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/12914047734"
+    },
+    {
+     "source": "overture",
+     "id": "ba9b98af-4fe9-45db-8081-e02a563d9eab"
+    },
+    {
+     "source": "overture",
+     "id": "75e37c51-ae6b-4adc-95e8-5997b422da86"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:9919d300-dee6-49dd-b01c-c84f75dad7ec",
+   "name": "Lotte Cinema Nha Trang Trần Phú",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "khanh-hoa",
+   "provinceName": "Khánh Hòa",
+   "lat": 12.233254,
+   "lng": 109.197366,
+   "address": "78 Trần Phú",
+   "phone": "+842583522200",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "9919d300-dee6-49dd-b01c-c84f75dad7ec"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:bb750512-9c0c-46dd-bc13-0a52d656eafe",
+   "name": "Platinum Cineplex",
+   "chain": "Platinum Cineplex",
+   "provinceSlug": "khanh-hoa",
+   "provinceName": "Khánh Hòa",
+   "lat": 12.247844,
+   "lng": 109.195777,
+   "address": "20 Đường Trần Phú",
+   "phone": "+84586258866",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "bb750512-9c0c-46dd-bc13-0a52d656eafe"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:9a170bad-c80c-4bf6-b7fd-974c3b2be036",
+   "name": "Rạp chiếu phim 4D Đại Dương - Vinpearl Land Nha Trang",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "khanh-hoa",
+   "provinceName": "Khánh Hòa",
+   "lat": 12.21845,
+   "lng": 109.241159,
+   "address": "Khánh Hòa",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "9a170bad-c80c-4bf6-b7fd-974c3b2be036"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:f03eb3ad-5d0a-47ca-b10c-745f21e8d3d7",
+   "name": "Rạp Chiếu Phim Tp Lai Châu",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "lai-chau",
+   "provinceName": "Lai Châu",
+   "lat": 22.399763,
+   "lng": 103.45156,
+   "address": "Trần Hưng Đạo",
+   "phone": "+84975456708",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "f03eb3ad-5d0a-47ca-b10c-745f21e8d3d7"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:110cd587-093b-4d28-b526-022c0ca18b8e",
+   "name": "CineStar Đà Lạt",
+   "chain": "Cinestar",
+   "provinceSlug": "lam-dong",
+   "provinceName": "Lâm Đồng",
+   "lat": 11.938443,
+   "lng": 108.44583,
+   "address": "Quảng trường Lâm Viên, Đ. Trần Quốc Toản",
+   "phone": "+8419000085",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "110cd587-093b-4d28-b526-022c0ca18b8e"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c6bddff4-b3d6-4c54-a48f-84bea85213de",
+   "name": "Cinestar Lâm Đồng",
+   "chain": "Cinestar",
+   "provinceSlug": "lam-dong",
+   "provinceName": "Lâm Đồng",
+   "lat": 11.727966,
+   "lng": 108.370857,
+   "address": "Tầng 4 tòa nhà TTC Plaza Đức Trọng, 713 Quốc Lộ 20, xã Đức Trọng, tỉnh Lâm Đồng",
+   "phone": "+8419000085",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c6bddff4-b3d6-4c54-a48f-84bea85213de"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:e9b4bef9-01c9-4a09-a321-ffe756f0f498",
+   "name": "Lotte Cinema Phan Thiết",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "lam-dong",
+   "provinceName": "Lâm Đồng",
+   "lat": 10.938744,
+   "lng": 108.11087,
+   "address": "Khu dân cư, Hùng Vương",
+   "phone": "+842523751505",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "e9b4bef9-01c9-4a09-a321-ffe756f0f498"
+    },
+    {
+     "source": "overture",
+     "id": "dd9c06fb-0af9-4bf6-82d3-d9bf1cbb11cf"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:34675ff9-92d0-4e85-adef-6934eb6f5dac",
+   "name": "JUNO Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "lam-dong",
+   "provinceName": "Lâm Đồng",
+   "lat": 10.929384,
+   "lng": 108.106008,
+   "address": "Khu dân cư Hùng Vương I - P.Phú Thuỷ",
+   "phone": "+842526505899",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "34675ff9-92d0-4e85-adef-6934eb6f5dac"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:7b0c0b39-7987-4079-bcb4-2b248bc7b3a6",
+   "name": "Rạp 19-4",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "lam-dong",
+   "provinceName": "Lâm Đồng",
+   "lat": 10.92469,
+   "lng": 108.096319,
+   "address": "30 Nguyễn Du",
+   "phone": "+842523816116",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "7b0c0b39-7987-4079-bcb4-2b248bc7b3a6"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d4630d52-7faf-40b2-add5-c53bbb137a97",
+   "name": "Rạp Chiếu Phim Hoà Bình Đà Lạt",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "lam-dong",
+   "provinceName": "Lâm Đồng",
+   "lat": 11.945311,
+   "lng": 108.451624,
+   "address": "29 Đường Yersin",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d4630d52-7faf-40b2-add5-c53bbb137a97"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/308446691",
+   "name": "Rạp hát Hòa Bình",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "lam-dong",
+   "provinceName": "Lâm Đồng",
+   "lat": 11.943528,
+   "lng": 108.435969,
+   "address": "Lâm Đồng",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/308446691"
+    },
+    {
+     "source": "overture",
+     "id": "14c68165-854e-4709-9fb7-7885add50227"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/818864136",
+   "name": "Trung tâm giải trí Starlight Bảo Lộc",
+   "chain": "Starlight",
+   "provinceSlug": "lam-dong",
+   "provinceName": "Lâm Đồng",
+   "lat": 11.542687,
+   "lng": 107.80473,
+   "address": "Hẻm 729 Trần Phú, Phường B'Lao",
+   "phone": "+8419001722",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/818864136"
+    },
+    {
+     "source": "overture",
+     "id": "69044ab9-1ac4-47b6-b766-a86ce776f9e9"
+    },
+    {
+     "source": "overture",
+     "id": "c68952c7-9a9b-4d46-b618-b8836e05bf89"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:ac36d0dc-3797-496e-8f85-b5096df45b07",
+   "name": "CGV Vincom Lạng Sơn",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "lang-son",
+   "provinceName": "Lạng Sơn",
+   "lat": 21.848017,
+   "lng": 106.758175,
+   "address": "Hùng Vương",
+   "phone": "+842053700017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "ac36d0dc-3797-496e-8f85-b5096df45b07"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:2ef77023-0bda-4c93-9e77-341993334b6b",
+   "name": "Đông Kinh Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "lang-son",
+   "provinceName": "Lạng Sơn",
+   "lat": 21.84495,
+   "lng": 106.76148,
+   "address": "3 Đường Nguyễn Du",
+   "phone": "+842053893999",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "2ef77023-0bda-4c93-9e77-341993334b6b"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:31aea7d6-d677-466b-9b9c-2d6a4791a871",
+   "name": "Đông Kinh Cinema 2",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "lang-son",
+   "provinceName": "Lạng Sơn",
+   "lat": 21.851975,
+   "lng": 106.760162,
+   "address": "3 Đường Nguyễn Khắc Cần",
+   "phone": "+842053893999",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "31aea7d6-d677-466b-9b9c-2d6a4791a871"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:4953848b-9bb9-4446-bdec-c6b23d37e01e",
+   "name": "Beta Cinemas Lào Cai",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "lao-cai",
+   "provinceName": "Lào Cai",
+   "lat": 22.43853,
+   "lng": 104.011672,
+   "address": "Tầng 2, Trung tâm thương mại GO! Lào Cai, Đại lộ Trần Hưng Đạo, Đường H1, Phường Bắc Lệnh, Thành phố Lào Cai, Tỉnh Lào Cai",
+   "phone": "+84358968970",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "4953848b-9bb9-4446-bdec-c6b23d37e01e"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:224ea02a-f390-4a12-a3e2-b22219ad5be8",
+   "name": "Rạp Hồng Hà - Trung Tâm Thành Phố Yên Bái",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "lao-cai",
+   "provinceName": "Lào Cai",
+   "lat": 21.696953,
+   "lng": 104.875898,
+   "address": "263 Đường Trần Hưng Đạo",
+   "phone": "+84367251295",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "224ea02a-f390-4a12-a3e2-b22219ad5be8"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:b6430653-a04b-48e4-b860-18aff734a214",
+   "name": "Rạp chiếu phim thành phố Lào Cai",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "lao-cai",
+   "provinceName": "Lào Cai",
+   "lat": 22.437126,
+   "lng": 104.014704,
+   "address": "Đại lộ Trần Hưng Đạo",
+   "phone": "+84962858119",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "b6430653-a04b-48e4-b860-18aff734a214"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:b4f87c82-2175-489a-99a3-dd998b378f8b",
+   "name": "Galaxy Vincom Plaza Vinh",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "nghe-an",
+   "provinceName": "Nghệ An",
+   "lat": 18.666592,
+   "lng": 105.675041,
+   "address": "TTTM Vincom Plaza Vinh, Quang Trung",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "b4f87c82-2175-489a-99a3-dd998b378f8b"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/5451558823",
+   "name": "Khu tổ hợp vui chơi",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "nghe-an",
+   "provinceName": "Nghệ An",
+   "lat": 18.676475,
+   "lng": 105.676835,
+   "address": "1 Lê Hồng Phong",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/5451558823"
+    },
+    {
+     "source": "overture",
+     "id": "c3336ce3-0688-40ca-82b3-fa3e4b53d224"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:22b6d1b9-fc2a-430a-b550-226a7e926ea4",
+   "name": "Lotte Cinema Vinh",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "nghe-an",
+   "provinceName": "Nghệ An",
+   "lat": 18.687771,
+   "lng": 105.665672,
+   "address": "1 Phan Bội Châu",
+   "phone": "+842383691555",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "22b6d1b9-fc2a-430a-b550-226a7e926ea4"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:ffb4dd42-5088-49bf-8350-e220239e5c8a",
+   "name": "LOTE Cinema VINH FAN",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "nghe-an",
+   "provinceName": "Nghệ An",
+   "lat": 18.68863,
+   "lng": 105.66718,
+   "address": "6 Ngõ 1 Phan Bội Châu",
+   "phone": "+84335295876",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "ffb4dd42-5088-49bf-8350-e220239e5c8a"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:36b2abd2-1a3b-4de2-b20b-19528ae22d18",
+   "name": "Rạp Chiếu Phim - Lotus Cinema",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "nghe-an",
+   "provinceName": "Nghệ An",
+   "lat": 18.703733,
+   "lng": 105.494306,
+   "address": "Tầng 3, Trung tâm mua sắm Chợ Sen (Lotus Center) tại Xã Vân Diên",
+   "phone": "+841659203205",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "36b2abd2-1a3b-4de2-b20b-19528ae22d18"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:9d9feecf-06db-4982-9eb8-93da82487e55",
+   "name": "Rạp Cưới Hỏi Sự Kiện Hải Bình số 1 Thanh Chương",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "nghe-an",
+   "provinceName": "Nghệ An",
+   "lat": 18.77528,
+   "lng": 105.339744,
+   "address": "Khối 12 Thị trấn Thanh Chương",
+   "phone": "+84971161567",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "9d9feecf-06db-4982-9eb8-93da82487e55"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:e285f80a-d63a-4b07-9595-4620bf415316",
+   "name": "Trung Tâm Điện Ảnh Đa Chức Năng",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "nghe-an",
+   "provinceName": "Nghệ An",
+   "lat": 18.672113,
+   "lng": 105.674591,
+   "address": "22 Quang Trung",
+   "phone": "+84995129129",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "e285f80a-d63a-4b07-9595-4620bf415316"
+    },
+    {
+     "source": "overture",
+     "id": "2a564f80-0960-4c6b-9011-d79c24912726"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:e067f439-870b-4357-b6bc-f2ea845dc751",
+   "name": "Anh ngữ Starlight Vinh - 187 Phạm Đình Toái - CC Phúc Thịnh Lê Mao kéo dài",
+   "chain": "Starlight",
+   "provinceSlug": "nghe-an",
+   "provinceName": "Nghệ An",
+   "lat": 18.69755,
+   "lng": 105.68527,
+   "address": "187 Đường Phạm Đình Toái",
+   "phone": "+84918635670",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "e067f439-870b-4357-b6bc-f2ea845dc751"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:1a7d726d-fb6d-475e-974d-8a70eaa60885",
+   "name": "LOTTE Cinema Nam Định",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ninh-binh",
+   "provinceName": "Ninh Bình",
+   "lat": 20.430134,
+   "lng": 106.161687,
+   "address": "toà nhà Nam Định Tower, 91 Điện Biên",
+   "phone": "+842282667771",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "1a7d726d-fb6d-475e-974d-8a70eaa60885"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:87ee499a-135e-4e99-967d-366224b3c771",
+   "name": "LOTTE Cinema Phủ Lý - Vincom",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ninh-binh",
+   "provinceName": "Ninh Bình",
+   "lat": 20.543462,
+   "lng": 105.917266,
+   "address": "60 Biên Hòa",
+   "phone": "+842263662555",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "87ee499a-135e-4e99-967d-366224b3c771"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4285695789",
+   "name": "Lotte Cinema Ninh Bình",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "ninh-binh",
+   "provinceName": "Ninh Bình",
+   "lat": 20.242119,
+   "lng": 106.004062,
+   "address": "Ninh Bình",
+   "phone": "+842293884566",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4285695789"
+    },
+    {
+     "source": "overture",
+     "id": "016882f3-0e73-49fb-8440-8a0d48607e3e"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:0cd53c41-bd60-4618-aed7-7541e186978f",
+   "name": "Rạp Biên Hòa",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ninh-binh",
+   "provinceName": "Ninh Bình",
+   "lat": 20.54524,
+   "lng": 105.916979,
+   "address": "Đường Biên Hòa",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "0cd53c41-bd60-4618-aed7-7541e186978f"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/161870867",
+   "name": "Rạp chiếu bóng Kim Mâu",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ninh-binh",
+   "provinceName": "Ninh Bình",
+   "lat": 20.08983,
+   "lng": 106.08524,
+   "address": "21 Phố Năm Dân",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/161870867"
+    },
+    {
+     "source": "overture",
+     "id": "ed06e588-f8c2-43fd-8a40-a87a558f87e8"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/1056361523",
+   "name": "Trung tâm Điện ảnh Sinh viên tỉnh Nam Định",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ninh-binh",
+   "provinceName": "Ninh Bình",
+   "lat": 20.440003,
+   "lng": 106.186113,
+   "address": "Ninh Bình",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/1056361523"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:295d6d0a-678c-423b-8768-db4cb5855e6b",
+   "name": "rạp chiếu phim ninh bình",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "ninh-binh",
+   "provinceName": "Ninh Bình",
+   "lat": 20.245303,
+   "lng": 105.973167,
+   "address": "159 Nguyễn Huệ",
+   "phone": "+842293880063",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "295d6d0a-678c-423b-8768-db4cb5855e6b"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:76d96995-b468-45cd-91f7-f35db57d6124",
+   "name": "Beta Vĩnh Yên",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "phu-tho",
+   "provinceName": "Phú Thọ",
+   "lat": 21.303871,
+   "lng": 105.592236,
+   "address": "Khách sạn Modena by Fraser, 99 Lý Bôn",
+   "phone": "+84977632215",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "76d96995-b468-45cd-91f7-f35db57d6124"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:26fd165b-0200-4dde-ac1a-e300220a927f",
+   "name": "CGV Happyland Việt Trì",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "phu-tho",
+   "provinceName": "Phú Thọ",
+   "lat": 21.321702,
+   "lng": 105.385781,
+   "address": "Tầng 3, Tòa nhà Happyland, 1606A Hùng Vương",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "26fd165b-0200-4dde-ac1a-e300220a927f"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:dcfb531d-0a48-4130-9435-0a82a0930b8d",
+   "name": "LOTTE Cinema Việt Trì - Vincom",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "phu-tho",
+   "provinceName": "Phú Thọ",
+   "lat": 21.312441,
+   "lng": 105.39567,
+   "address": "Phố Đoàn Kết",
+   "phone": "+842103868393",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "dcfb531d-0a48-4130-9435-0a82a0930b8d"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/5367509821",
+   "name": "Rạp 19-5",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "phu-tho",
+   "provinceName": "Phú Thọ",
+   "lat": 21.30708,
+   "lng": 105.59447,
+   "address": "4 Đường Lý Bôn",
+   "phone": "+842113720202",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/5367509821"
+    },
+    {
+     "source": "overture",
+     "id": "049cc962-eadc-4b6c-ae36-dbd4807b0144"
+    },
+    {
+     "source": "overture",
+     "id": "abf7ce7c-12e2-4251-ba70-7f38e8df237e"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:31c0b0e4-d9b5-456f-b075-b93b6b776335",
+   "name": "Rạp Hòa Bình",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "phu-tho",
+   "provinceName": "Phú Thọ",
+   "lat": 20.816537,
+   "lng": 105.336618,
+   "address": "Hai Bà Trưng",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "31c0b0e4-d9b5-456f-b075-b93b6b776335"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:9f83853a-96d0-4afd-879d-47af4ffa6c46",
+   "name": "Rạp chiếu phim VĨNH PHÚC",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "phu-tho",
+   "provinceName": "Phú Thọ",
+   "lat": 21.312936,
+   "lng": 105.614445,
+   "address": "TẦNG 4 TTTM COOPMART ",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "9f83853a-96d0-4afd-879d-47af4ffa6c46"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:1f8810c6-40f7-400e-8072-1fe3f9d42266",
+   "name": "Venus Cinema Hoa Binh",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "phu-tho",
+   "provinceName": "Phú Thọ",
+   "lat": 20.825615,
+   "lng": 105.351128,
+   "address": "TTTM Vincom Hoà Bình, Cù Chính Lan",
+   "phone": "+84788425435",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "1f8810c6-40f7-400e-8072-1fe3f9d42266"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/11297515410",
+   "name": "CGV Cinemas Quảng Ngãi",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "quang-ngai",
+   "provinceName": "Quảng Ngãi",
+   "lat": 14.34875,
+   "lng": 108.000839,
+   "address": "Quảng Ngãi",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/11297515410"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:275a69e6-e5b5-4fe2-b1cf-6aaa25010042",
+   "name": "CGV Vincom Quảng Ngãi",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "quang-ngai",
+   "provinceName": "Quảng Ngãi",
+   "lat": 15.113411,
+   "lng": 108.810474,
+   "address": "Quảng Ngãi",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "275a69e6-e5b5-4fe2-b1cf-6aaa25010042"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/6318162906",
+   "name": "CGV Hạ Long",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "quang-ninh",
+   "provinceName": "Quảng Ninh",
+   "lat": 20.95531,
+   "lng": 107.012777,
+   "address": "Quảng Ninh",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/6318162906"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d021be2f-8304-4367-b97c-d16d5b60de99",
+   "name": "Cgv Cinema Vincom Hạ Long",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "quang-ninh",
+   "provinceName": "Quảng Ninh",
+   "lat": 20.950477,
+   "lng": 107.084229,
+   "address": "Vincom",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d021be2f-8304-4367-b97c-d16d5b60de99"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:655aa857-3c7d-4056-8830-d1b70dbcb659",
+   "name": "Rạp hát Phường Uông Bí",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "quang-ninh",
+   "provinceName": "Quảng Ninh",
+   "lat": 21.038642,
+   "lng": 106.770099,
+   "address": "Trần Phú",
+   "phone": "+84987514193",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "655aa857-3c7d-4056-8830-d1b70dbcb659"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:c5df459d-f3d8-45aa-a07e-d30b79d210cf",
+   "name": "Cinemax Khe Sanh",
+   "chain": "Cinemax",
+   "provinceSlug": "quang-tri",
+   "provinceName": "Quảng Trị",
+   "lat": 16.62781,
+   "lng": 106.73916,
+   "address": "145 Đường Lê Duẩn",
+   "phone": "+84377077588",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "c5df459d-f3d8-45aa-a07e-d30b79d210cf"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:53cb4455-098a-48ed-826e-e70b23382031",
+   "name": "Cinemax Quảng Trị",
+   "chain": "Cinemax",
+   "provinceSlug": "quang-tri",
+   "provinceName": "Quảng Trị",
+   "lat": 16.81121,
+   "lng": 107.09529,
+   "address": "4 Đường Nguyễn Du",
+   "phone": "+84961133357",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "53cb4455-098a-48ed-826e-e70b23382031"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/9025014749",
+   "name": "Lotte Cinema Đồng Hới",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "quang-tri",
+   "provinceName": "Quảng Trị",
+   "lat": 17.465435,
+   "lng": 106.626124,
+   "address": "Quảng Trị",
+   "phone": "+842323772729",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/9025014749"
+    },
+    {
+     "source": "overture",
+     "id": "3c5b3265-cb85-4bb6-9716-a1e006c68133"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d604a00d-1b1e-4477-8cff-58079b0caac4",
+   "name": "RIO CINEMAS Vincom Plaza Đông Hà - Quảng Trị",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "quang-tri",
+   "provinceName": "Quảng Trị",
+   "lat": 16.795903,
+   "lng": 107.109901,
+   "address": "252 Hùng Vương",
+   "phone": "+8419001187",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d604a00d-1b1e-4477-8cff-58079b0caac4"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:2fe5648d-2185-4d6d-9825-e49260d11fae",
+   "name": "RIO Cinemas Ba Đồn",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "quang-tri",
+   "provinceName": "Quảng Trị",
+   "lat": 17.756698,
+   "lng": 106.422198,
+   "address": "353 Đường Quang Trung",
+   "phone": "+84846272288",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "2fe5648d-2185-4d6d-9825-e49260d11fae"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:ebd5e840-d84f-494c-98c1-072ab279f4e7",
+   "name": "Rạp Chiếu Phim Đông Hà Rap Chieu Phim Dong Ha",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "quang-tri",
+   "provinceName": "Quảng Trị",
+   "lat": 16.811243,
+   "lng": 107.095273,
+   "address": "Quảng Trị",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "ebd5e840-d84f-494c-98c1-072ab279f4e7"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/5349083323",
+   "name": "Tuan Viet Center",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "quang-tri",
+   "provinceName": "Quảng Trị",
+   "lat": 17.463192,
+   "lng": 106.624799,
+   "address": "Quảng Trị",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/5349083323"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:66720193-fc0e-4869-876e-9b46c8c68307",
+   "name": "CGV AEON MALL Tân An",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "tay-ninh",
+   "provinceName": "Tây Ninh",
+   "lat": 10.550401,
+   "lng": 106.397699,
+   "address": "Hùng Vương",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "66720193-fc0e-4869-876e-9b46c8c68307"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:48634245-a201-45a7-b81c-22bbd0761722",
+   "name": "CGV TâyNinh",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "tay-ninh",
+   "provinceName": "Tây Ninh",
+   "lat": 11.319892,
+   "lng": 106.100653,
+   "address": "VINCOM, 4 Khu Phố 1",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "48634245-a201-45a7-b81c-22bbd0761722"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:44a928cd-1943-41b7-8528-139f50a03d37",
+   "name": "Galaxy Aeon Tân An",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "tay-ninh",
+   "provinceName": "Tây Ninh",
+   "lat": 11.30265,
+   "lng": 106.12614,
+   "address": "86 Đường Thuyền",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "44a928cd-1943-41b7-8528-139f50a03d37"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:db7c8669-d3f0-45f2-9502-c3cb2df0d602",
+   "name": "Galaxy Cinema Aeon Tân An",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "tay-ninh",
+   "provinceName": "Tây Ninh",
+   "lat": 10.550452,
+   "lng": 106.397506,
+   "address": "86 Tuyến tránh QL 1",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "db7c8669-d3f0-45f2-9502-c3cb2df0d602"
+    },
+    {
+     "source": "overture",
+     "id": "c170ba98-400d-410e-9ebb-4a1c3bc142b9"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:a03da421-05c9-49f6-b7c1-de818a56eabc",
+   "name": "LOTTE Cinema Tây Ninh",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "tay-ninh",
+   "provinceName": "Tây Ninh",
+   "lat": 11.312615,
+   "lng": 106.095714,
+   "address": "217-219 Đường 30 tháng 4",
+   "phone": "+842763724114",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "a03da421-05c9-49f6-b7c1-de818a56eabc"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/980137439",
+   "name": "Rạp Chiếu Bóng Long An",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "tay-ninh",
+   "provinceName": "Tây Ninh",
+   "lat": 10.539361,
+   "lng": 106.408841,
+   "address": "20 Đường Võ Văn Tần",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/980137439"
+    },
+    {
+     "source": "overture",
+     "id": "f2540d43-8a94-4846-92a3-92ef6acf47cd"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:67d31404-ca1f-4641-b1ac-424b7463cfa2",
+   "name": "Starlight Long An",
+   "chain": "Starlight",
+   "provinceSlug": "tay-ninh",
+   "provinceName": "Tây Ninh",
+   "lat": 10.534243,
+   "lng": 106.41031,
+   "address": "TTTM Vincom, Hùng Vương",
+   "phone": "+8419001722",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "67d31404-ca1f-4641-b1ac-424b7463cfa2"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:5cb73e54-21e0-41ef-8f6b-59916d45afe1",
+   "name": "Beta Cineplex Thái Nguyên",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "thai-nguyen",
+   "provinceName": "Thái Nguyên",
+   "lat": 21.579141,
+   "lng": 105.81678,
+   "address": "Hoàng Gia Plaza, 259 Quang Trung",
+   "phone": "+84867460053",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "5cb73e54-21e0-41ef-8f6b-59916d45afe1"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:3a275e08-139b-44a5-8cbb-b286cb44b4f4",
+   "name": "CGV Vincom Thái Nguyên",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "thai-nguyen",
+   "provinceName": "Thái Nguyên",
+   "lat": 21.590883,
+   "lng": 105.825905,
+   "address": "TTTM Vincom, 286 Lương Ngọc Quyến",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "3a275e08-139b-44a5-8cbb-b286cb44b4f4"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:aa4eb46e-2445-408a-9310-51fc93005b9e",
+   "name": "Pixel Cinema Thái Nguyên",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "thai-nguyen",
+   "provinceName": "Thái Nguyên",
+   "lat": 21.578899,
+   "lng": 105.811213,
+   "address": "KDC Số 10, Phường Thịnh Đán, TP Thái Nguyên ",
+   "phone": "+84384731888",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "aa4eb46e-2445-408a-9310-51fc93005b9e"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:6f92c5a9-37ed-4338-976e-3e4eef39e2d0",
+   "name": "Rạp Chiếu Phim Hoàng Gia",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "thai-nguyen",
+   "provinceName": "Thái Nguyên",
+   "lat": 21.579047,
+   "lng": 105.816894,
+   "address": "Thái Nguyên",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "6f92c5a9-37ed-4338-976e-3e4eef39e2d0"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/1084250534",
+   "name": "Rạp chiếu bóng Nhân Dân",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "thai-nguyen",
+   "provinceName": "Thái Nguyên",
+   "lat": 21.594756,
+   "lng": 105.845207,
+   "address": "Thái Nguyên",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/1084250534"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:77bac21b-41fc-4a4c-85b2-9f3e41a14e6d",
+   "name": "BHD Star Anyla Sầm Sơn",
+   "chain": "BHD Star Cineplex",
+   "provinceSlug": "thanh-hoa",
+   "provinceName": "Thanh Hóa",
+   "lat": 19.735468,
+   "lng": 105.900467,
+   "address": "05 Tây Sơn",
+   "phone": "+84388272272",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "77bac21b-41fc-4a4c-85b2-9f3e41a14e6d"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:584b6029-d418-4aa1-b8ee-135e4899ede6",
+   "name": "Beta Thanh Hóa",
+   "chain": "Beta Cinemas",
+   "provinceSlug": "thanh-hoa",
+   "provinceName": "Thanh Hóa",
+   "lat": 19.806692,
+   "lng": 105.777156,
+   "address": "TTTM, 27-29 Đại lộ Lê Lợi",
+   "phone": "+84325360249",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "584b6029-d418-4aa1-b8ee-135e4899ede6"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:f461345e-f5c6-4534-8346-43462a693a2c",
+   "name": "CGV Cinemas Vincom Thanh Hóa",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "thanh-hoa",
+   "provinceName": "Thanh Hóa",
+   "lat": 19.809695,
+   "lng": 105.777493,
+   "address": "Trần Phú, phường Điện Biên",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "f461345e-f5c6-4534-8346-43462a693a2c"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:1d03a9bf-8e88-4687-9826-0825861464a2",
+   "name": "Lotte Cinema Thanh Hóa",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "thanh-hoa",
+   "provinceName": "Thanh Hóa",
+   "lat": 19.810029,
+   "lng": 105.777344,
+   "address": "Vincom Plaza, Đường Đ. Trần Phú",
+   "phone": "+842837752524",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "1d03a9bf-8e88-4687-9826-0825861464a2"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:465fcc3e-14d3-46b6-8ed7-a2ac126f7596",
+   "name": "Rạp Phim 3D",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "thanh-hoa",
+   "provinceName": "Thanh Hóa",
+   "lat": 19.80335,
+   "lng": 105.78207,
+   "address": "115 Tống Duy Tân",
+   "phone": "+84373857058",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "465fcc3e-14d3-46b6-8ed7-a2ac126f7596"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:5cccc586-de8f-4356-a491-01c281dde58c",
+   "name": "Lotte Cinema Tuyen Quang",
+   "chain": "Lotte Cinema",
+   "provinceSlug": "tuyen-quang",
+   "provinceName": "Tuyên Quang",
+   "lat": 21.818941,
+   "lng": 105.205413,
+   "address": "260 Đ. Quang Trung",
+   "phone": "+842076251201",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "5cccc586-de8f-4356-a491-01c281dde58c"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:dcfd663a-a2e2-4690-9fbc-e8bdbc7eb61b",
+   "name": "Ngã 3 Rạp Tháng 8 Tuyên Quang",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "tuyen-quang",
+   "provinceName": "Tuyên Quang",
+   "lat": 21.824582,
+   "lng": 105.219172,
+   "address": "Đường Trần Hưng Đạo",
+   "phone": null,
+   "sources": [
+    {
+     "source": "overture",
+     "id": "dcfd663a-a2e2-4690-9fbc-e8bdbc7eb61b"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:08c9fd9e-2e0b-4e28-b433-b2302b67c958",
+   "name": "Venus Cinema Hà Giang",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "tuyen-quang",
+   "provinceName": "Tuyên Quang",
+   "lat": 22.833872,
+   "lng": 104.989126,
+   "address": "Đ. Trần Phú",
+   "phone": "+84867425435",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "08c9fd9e-2e0b-4e28-b433-b2302b67c958"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:071a42cb-ead3-4171-9591-19159d520bda",
+   "name": "CGV Cinema - Vincom Vĩnh Long",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "vinh-long",
+   "provinceName": "Vĩnh Long",
+   "lat": 10.245981,
+   "lng": 105.977308,
+   "address": "VINCOM, 55 Đường Phạm Thái Bường",
+   "phone": "+84976157595",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "071a42cb-ead3-4171-9591-19159d520bda"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:d8f4ce3d-f956-4538-bfee-a629e15bad07",
+   "name": "CGV Vincom Trà Vinh",
+   "chain": "CGV Cinemas",
+   "provinceSlug": "vinh-long",
+   "provinceName": "Vĩnh Long",
+   "lat": 9.935805,
+   "lng": 106.336971,
+   "address": "TTTM Vincom Plaza",
+   "phone": "+8419006017",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "d8f4ce3d-f956-4538-bfee-a629e15bad07"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:node/4102705889",
+   "name": "Galaxy Cinema Bến Tre",
+   "chain": "Galaxy Cinema",
+   "provinceSlug": "vinh-long",
+   "provinceName": "Vĩnh Long",
+   "lat": 10.241519,
+   "lng": 106.376756,
+   "address": "Lầu 1, TTTM Sense City, 26A Trần Quốc Tuấn",
+   "phone": "+8419002224",
+   "sources": [
+    {
+     "source": "osm",
+     "id": "node/4102705889"
+    },
+    {
+     "source": "overture",
+     "id": "082f3c8f-8297-49be-841e-8014848f4ea3"
+    },
+    {
+     "source": "overture",
+     "id": "671d1961-5565-4f4a-a036-6539dac0ccad"
+    }
+   ]
+  },
+  {
+   "sourceId": "osm:way/288523328",
+   "name": "Rạp hát Thái Bình",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "vinh-long",
+   "provinceName": "Vĩnh Long",
+   "lat": 9.933329,
+   "lng": 106.342215,
+   "address": "Vĩnh Long",
+   "phone": null,
+   "sources": [
+    {
+     "source": "osm",
+     "id": "way/288523328"
+    }
+   ]
+  },
+  {
+   "sourceId": "overture:5c506056-f7a7-4683-add7-f0a92767c068",
+   "name": "Rạp Hồng Hải",
+   "chain": "Rạp độc lập",
+   "provinceSlug": "vinh-long",
+   "provinceName": "Vĩnh Long",
+   "lat": 9.907161,
+   "lng": 106.311985,
+   "address": "Ấp Sâm Bua, xã Lương Hòa, huyện Châu Thành, tỉnh Trà Vinh",
+   "phone": "+84917145972",
+   "sources": [
+    {
+     "source": "overture",
+     "id": "5c506056-f7a7-4683-add7-f0a92767c068"
+    }
+   ]
+  }
+ ]
+}

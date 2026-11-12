@@ -15,10 +15,11 @@ import org.springframework.stereotype.Component;
 public class DataSeeder implements ApplicationRunner {
 
     private final CinemaSeeder cinemaSeeder;
+    private final ShowtimeSeeder showtimeSeeder;
 
     @Override
     public void run(ApplicationArguments args) {
         cinemaSeeder.seedIfEmpty();
-        // TODO giai đoạn 1: TmdbSyncJob (phim) -> ShowtimeSeeder (suất chiếu 7 ngày tới)
+        showtimeSeeder.seedIfEmpty();   // phim từ TMDB + suất chiếu 7 ngày tới
     }
 }
