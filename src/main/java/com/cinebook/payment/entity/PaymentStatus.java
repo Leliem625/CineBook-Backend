@@ -1,0 +1,5 @@
+package com.cinebook.payment.entity;
+
+public enum PaymentStatus {
+    CREATED, PENDING, SUCCEEDED, FAILED, CANCELLED_BY_USER, AMOUNT_MISMATCH, REFUND_REQUESTED, REFUNDED, REFUND_FAILED
+}
