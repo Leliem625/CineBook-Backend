@@ -22,6 +22,10 @@ public interface MovieRepository extends JpaRepository<Movie, Long> {
     @EntityGraph(attributePaths = "genres")
     List<Movie> findByStatusInOrderByTmdbPopularityDesc(Collection<MovieStatus> statuses);
 
+    /** Phim theo danh sách id nội bộ, nạp kèm thể loại (dùng ghép phim vào lịch chiếu). */
+    @EntityGraph(attributePaths = "genres")
+    List<Movie> findByIdIn(Collection<Long> ids);
+
     /** Phim đã lưu ứng với danh sách id TMDB (dùng để ghép dữ liệu nội bộ vào kết quả TMDB). */
     @EntityGraph(attributePaths = "genres")
     List<Movie> findByTmdbIdIn(Collection<Integer> tmdbIds);

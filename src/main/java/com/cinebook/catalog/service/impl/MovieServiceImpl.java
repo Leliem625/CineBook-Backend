@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -65,6 +66,14 @@ public class MovieServiceImpl implements MovieService {
             log.warn("Gọi TMDB thất bại ({}) -> lấy phim từ DB", e.getMessage());
             return fromDatabase(status);
         }
+    }
+
+    @Override
+    public List<MovieResponse> getMoviesByIds(Collection<Long> ids) {
+        if (ids.isEmpty()) {
+            return List.of();
+        }
+        return movieRepository.findByIdIn(ids).stream().map(MovieMapper::toResponse).toList();
     }
 
     // ------------------------------------------------------------------ nguồn chính: TMDB
