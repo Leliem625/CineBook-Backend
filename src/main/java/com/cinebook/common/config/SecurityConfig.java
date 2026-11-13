@@ -19,6 +19,7 @@ public class SecurityConfig {
         http
             // TODO bật lại CSRF cho cookie khi làm frontend; IPN VNPay phải được bỏ qua CSRF
             .csrf(csrf -> csrf.disable())
+            .cors(Customizer.withDefaults())   // dùng cấu hình trong CorsConfig
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/api/v1/admin/**").hasAnyRole("ADMIN", "MANAGER")
                 .requestMatchers("/api/v1/staff/**").hasAnyRole("ADMIN", "MANAGER", "STAFF")

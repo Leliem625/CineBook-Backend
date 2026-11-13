@@ -16,8 +16,16 @@ public final class TmdbDtos {
     }
 
     @JsonIgnoreProperties(ignoreUnknown = true)
-    public record MovieSummary(long id, String title, double popularity,
-                               @JsonProperty("release_date") String releaseDate) {
+    public record MovieSummary(
+            long id,
+            String title,
+            @JsonProperty("original_title") String originalTitle,
+            @JsonProperty("original_language") String originalLanguage,
+            @JsonProperty("poster_path") String posterPath,
+            @JsonProperty("release_date") String releaseDate,
+            @JsonProperty("genre_ids") List<Integer> genreIds,
+            @JsonProperty("vote_average") double voteAverage,
+            double popularity) {
     }
 
     @JsonIgnoreProperties(ignoreUnknown = true)

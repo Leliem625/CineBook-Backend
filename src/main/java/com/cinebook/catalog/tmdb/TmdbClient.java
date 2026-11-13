@@ -1,15 +1,19 @@
 package com.cinebook.catalog.tmdb;
 
-import com.cinebook.catalog.tmdb.dto.TmdbDtos.MovieDetail;
-import com.cinebook.catalog.tmdb.dto.TmdbDtos.MovieSummary;
-import com.cinebook.catalog.tmdb.dto.TmdbDtos.Page;
+import java.net.http.HttpClient;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.client.JdkClientHttpRequestFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.cinebook.catalog.tmdb.dto.TmdbDtos.MovieDetail;
+import com.cinebook.catalog.tmdb.dto.TmdbDtos.MovieSummary;
+import com.cinebook.catalog.tmdb.dto.TmdbDtos.Page;
 
 /**
  * Client gọi TMDB API v3.
@@ -19,13 +23,20 @@ import java.util.List;
 public class TmdbClient {
 
     private static final int MAX_PAGES = 10;
+    private static final Duration CONNECT_TIMEOUT = Duration.ofSeconds(2);
+    private static final Duration READ_TIMEOUT = Duration.ofSeconds(3);
 
     private final RestClient rest;
     private final TmdbProperties props;
 
     public TmdbClient(RestClient.Builder builder, TmdbProperties props) {
         this.props = props;
+        // Timeout bắt buộc: TMDB treo thì lỗi nhanh để service chuyển sang dữ liệu dự phòng
+        JdkClientHttpRequestFactory factory = new JdkClientHttpRequestFactory(
+                HttpClient.newBuilder().connectTimeout(CONNECT_TIMEOUT).build());
+        factory.setReadTimeout(READ_TIMEOUT);
         this.rest = builder
+                .requestFactory(factory)
                 .baseUrl(props.baseUrl())
                 .defaultHeader(HttpHeaders.AUTHORIZATION, "Bearer " + props.token())
                 .defaultHeader(HttpHeaders.ACCEPT, "application/json")

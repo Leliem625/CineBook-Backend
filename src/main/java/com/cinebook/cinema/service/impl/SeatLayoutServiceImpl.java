@@ -1,16 +1,18 @@
 package com.cinebook.cinema.service.impl;
 
-import com.cinebook.cinema.service.RoomTemplate;
-import com.cinebook.cinema.service.SeatLayoutService;
-import com.cinebook.cinema.entity.Room;
-import com.cinebook.cinema.entity.SeatType;
-import lombok.RequiredArgsConstructor;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.cinebook.cinema.entity.Room;
+import com.cinebook.cinema.entity.SeatType;
+import com.cinebook.cinema.service.RoomTemplate;
+import com.cinebook.cinema.service.SeatLayoutService;
+
+import lombok.RequiredArgsConstructor;
 
 /** Cài đặt {@link SeatLayoutService}. */
 @Service

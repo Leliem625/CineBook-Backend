@@ -1,19 +1,5 @@
 package com.cinebook.catalog.service.impl;
 
-import com.cinebook.catalog.service.MovieImportService;
-import com.cinebook.catalog.entity.AgeRating;
-import com.cinebook.catalog.entity.Genre;
-import com.cinebook.catalog.entity.Movie;
-import com.cinebook.catalog.entity.MovieStatus;
-import com.cinebook.catalog.repository.GenreRepository;
-import com.cinebook.catalog.repository.MovieRepository;
-import com.cinebook.catalog.tmdb.dto.TmdbDtos;
-import com.cinebook.catalog.tmdb.dto.TmdbDtos.MovieDetail;
-import com.cinebook.common.util.SlugUtil;
-import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.Instant;
@@ -25,6 +11,21 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.cinebook.catalog.entity.AgeRating;
+import com.cinebook.catalog.entity.Movie;
+import com.cinebook.catalog.entity.MovieStatus;
+import com.cinebook.catalog.repository.GenreRepository;
+import com.cinebook.catalog.repository.MovieRepository;
+import com.cinebook.catalog.service.MovieImportService;
+import com.cinebook.catalog.tmdb.dto.TmdbDtos;
+import com.cinebook.catalog.tmdb.dto.TmdbDtos.MovieDetail;
+import com.cinebook.common.util.SlugUtil;
+
+import lombok.RequiredArgsConstructor;
 
 /** Cài đặt {@link MovieImportService}. */
 @Service
