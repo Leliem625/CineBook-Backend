@@ -48,6 +48,7 @@ import lombok.extern.slf4j.Slf4j;
 public class MovieServiceImpl implements MovieService {
 
     private static final String IMAGE_BASE = "https://image.tmdb.org/t/p/w500";
+    private static final String BACKDROP_BASE = "https://image.tmdb.org/t/p/w1280";
 
     private final TmdbClient tmdbClient;
     private final MovieRepository movieRepository;
@@ -124,6 +125,8 @@ public class MovieServiceImpl implements MovieService {
                 s.title(),
                 s.originalTitle(),
                 s.posterPath() == null ? null : IMAGE_BASE + s.posterPath(),
+                local != null && local.getBackdropUrl() != null ? local.getBackdropUrl()
+                        : s.backdropPath() == null ? null : BACKDROP_BASE + s.backdropPath(),
                 release,
                 local == null ? null : local.getAgeRating(),
                 local == null ? null : local.getRuntimeMin(),

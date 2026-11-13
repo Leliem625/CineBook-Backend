@@ -22,6 +22,7 @@ public final class TmdbDtos {
             @JsonProperty("original_title") String originalTitle,
             @JsonProperty("original_language") String originalLanguage,
             @JsonProperty("poster_path") String posterPath,
+            @JsonProperty("backdrop_path") String backdropPath,
             @JsonProperty("release_date") String releaseDate,
             @JsonProperty("genre_ids") List<Integer> genreIds,
             @JsonProperty("vote_average") double voteAverage,

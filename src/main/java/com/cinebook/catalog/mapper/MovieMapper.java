@@ -20,6 +20,7 @@ public final class MovieMapper {
                 m.getTitleVi(),
                 m.getOriginalTitle(),
                 m.getPosterUrl(),
+                m.getBackdropUrl(),
                 m.getReleaseDateVn(),
                 m.getAgeRating(),
                 m.getRuntimeMin(),

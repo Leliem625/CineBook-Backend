@@ -17,6 +17,7 @@ public record MovieResponse(
         String title,
         String originalTitle,
         String posterUrl,
+        String backdropUrl,
         LocalDate releaseDate,
         AgeRating ageRating,
         Integer runtime,

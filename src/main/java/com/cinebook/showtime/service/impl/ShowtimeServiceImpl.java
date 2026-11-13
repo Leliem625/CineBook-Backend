@@ -1,6 +1,5 @@
 package com.cinebook.showtime.service.impl;
 
-import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.LinkedHashMap;
@@ -87,7 +86,7 @@ public class ShowtimeServiceImpl implements ShowtimeService {
                 .filter(s -> movieId == null || movieId.equals(s.getMovieId()))
                 .filter(s -> format == null || format == s.getFormat())
                 .collect(Collectors.groupingBy(Showtime::getMovieId, LinkedHashMap::new,
-                        Collectors.mapping(s -> ShowtimeMapper.toResponse(s, fromPrice(s.getFormat(), date)),
+                        Collectors.mapping(s -> ShowtimeMapper.toResponse(s, ShowtimePricing.fromPrice(s.getFormat(), date)),
                                 Collectors.toList())));
 
         Map<Long, MovieResponse> movies = movieService.getMoviesByIds(byMovie.keySet()).stream()
@@ -96,21 +95,5 @@ public class ShowtimeServiceImpl implements ShowtimeService {
                 .filter(e -> movies.containsKey(e.getKey()))
                 .map(e -> new MovieShowtimesResponse(movies.get(e.getKey()), e.getValue()))
                 .toList();
-    }
-
-    /**
-     * Giá từ (VND) tạm thời: giá cơ bản theo định dạng, cuối tuần +10%, làm tròn lên 1.000đ (BR-11, BR-13).
-     * TODO thay bằng PricingService khi có bảng giá theo loại ghế, ngày lễ, khung giờ.
-     */
-    private static long fromPrice(ScreenFormat format, LocalDate date) {
-        long base = switch (format) {
-            case F2D -> 65_000;
-            case F3D -> 85_000;
-            case IMAX -> 120_000;
-            case F4DX -> 130_000;
-        };
-        boolean weekend = date.getDayOfWeek() == DayOfWeek.SATURDAY || date.getDayOfWeek() == DayOfWeek.SUNDAY;
-        long price = weekend ? base * 110 / 100 : base;
-        return (price + 999) / 1000 * 1000;
     }
 }

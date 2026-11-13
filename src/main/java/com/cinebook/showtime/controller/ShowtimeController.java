@@ -2,10 +2,13 @@ package com.cinebook.showtime.controller;
 
 import com.cinebook.cinema.entity.ScreenFormat;
 import com.cinebook.showtime.dto.MovieShowtimesResponse;
+import com.cinebook.showtime.dto.SeatMapResponse;
+import com.cinebook.showtime.service.SeatMapService;
 import com.cinebook.showtime.service.ShowtimeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,6 +25,7 @@ import java.util.List;
 public class ShowtimeController {
 
     private final ShowtimeService showtimeService;
+    private final SeatMapService seatMapService;
 
     /**
      * Phim và suất chiếu theo tỉnh / rạp / ngày (FR-203), gom theo phim. Phải có {@code province} hoặc {@code cinema}.
@@ -41,5 +45,9 @@ public class ShowtimeController {
         return showtimeService.getShowtimes(province, cinema, date, movie, format);
     }
 
-    // TODO GET /{id}/seats  snapshot sơ đồ ghế
+    /** GET /api/v1/showtimes/{id}/seats: sơ đồ ghế kèm trạng thái và giá từng ghế (FR-204). */
+    @GetMapping("/{id}/seats")
+    public SeatMapResponse getSeatMap(@PathVariable Long id) {
+        return seatMapService.getSeatMap(id);
+    }
 }
