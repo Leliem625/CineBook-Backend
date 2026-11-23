@@ -18,9 +18,12 @@ import com.cinebook.catalog.dto.MovieResponse;
 import com.cinebook.catalog.service.MovieService;
 import com.cinebook.cinema.dto.CinemaResponse;
 import com.cinebook.cinema.entity.ScreenFormat;
+import com.cinebook.cinema.entity.SeatType;
+import com.cinebook.pricing.service.PricingService;
 import com.cinebook.cinema.service.CinemaService;
 import com.cinebook.showtime.dto.MovieShowtimesResponse;
 import com.cinebook.showtime.dto.ShowtimeResponse;
+import com.cinebook.showtime.dto.ShowtimeSummary;
 import com.cinebook.showtime.entity.Showtime;
 import com.cinebook.showtime.entity.ShowtimeStatus;
 import com.cinebook.showtime.mapper.ShowtimeMapper;
@@ -42,12 +45,22 @@ public class ShowtimeServiceImpl implements ShowtimeService {
     private final ShowtimeRepository showtimeRepository;
     private final CinemaService cinemaService;
     private final MovieService movieService;
+    private final PricingService pricingService;
 
     public ShowtimeServiceImpl(ShowtimeRepository showtimeRepository, CinemaService cinemaService,
-                               MovieService movieService) {
+                               MovieService movieService, PricingService pricingService) {
         this.showtimeRepository = showtimeRepository;
         this.cinemaService = cinemaService;
         this.movieService = movieService;
+        this.pricingService = pricingService;
+    }
+
+    @Override
+    public ShowtimeSummary getShowtimeSummary(Long showtimeId) {
+        Showtime s = showtimeRepository.findById(showtimeId)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Không có suất chiếu id=" + showtimeId));
+        return new ShowtimeSummary(s.getId(), s.getMovieId(), s.getCinemaId(), s.getRoomId(),
+                s.getStartAt(), s.getFormat(), s.getStatus());
     }
 
     @Override
@@ -86,7 +99,7 @@ public class ShowtimeServiceImpl implements ShowtimeService {
                 .filter(s -> movieId == null || movieId.equals(s.getMovieId()))
                 .filter(s -> format == null || format == s.getFormat())
                 .collect(Collectors.groupingBy(Showtime::getMovieId, LinkedHashMap::new,
-                        Collectors.mapping(s -> ShowtimeMapper.toResponse(s, ShowtimePricing.fromPrice(s.getFormat(), date)),
+                        Collectors.mapping(s -> ShowtimeMapper.toResponse(s, pricingService.priceOf(s.getFormat(), SeatType.STANDARD, date)),
                                 Collectors.toList())));
 
         Map<Long, MovieResponse> movies = movieService.getMoviesByIds(byMovie.keySet()).stream()

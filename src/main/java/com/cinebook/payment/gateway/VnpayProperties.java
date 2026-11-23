@@ -1,9 +1,15 @@
 package com.cinebook.payment.gateway;
 
-/**
- * @ConfigurationProperties(prefix = "cinebook.vnpay").
- */
-public class VnpayProperties {
+import org.springframework.boot.context.properties.ConfigurationProperties;
 
-    // TODO tmnCode, hashSecret, payUrl, returnUrl
+/**
+ * Cấu hình VNPay (application.yml: cinebook.vnpay.*). {@code tmnCode} và {@code hashSecret} đọc từ
+ * biến môi trường VNPAY_TMN_CODE / VNPAY_HASH_SECRET trong .env, không commit.
+ */
+@ConfigurationProperties(prefix = "cinebook.vnpay")
+public record VnpayProperties(String tmnCode, String hashSecret, String payUrl, String returnUrl) {
+
+    public boolean isConfigured() {
+        return tmnCode != null && !tmnCode.isBlank() && hashSecret != null && !hashSecret.isBlank();
+    }
 }

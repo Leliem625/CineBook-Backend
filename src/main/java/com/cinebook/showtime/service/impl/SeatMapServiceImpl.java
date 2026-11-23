@@ -3,6 +3,7 @@ package com.cinebook.showtime.service.impl;
 import com.cinebook.catalog.service.MovieService;
 import com.cinebook.cinema.dto.RoomLayoutResponse;
 import com.cinebook.cinema.service.CinemaService;
+import com.cinebook.pricing.service.PricingService;
 import com.cinebook.cinema.service.RoomService;
 import com.cinebook.showtime.dto.SeatMapResponse;
 import com.cinebook.showtime.dto.SeatView;
@@ -39,6 +40,7 @@ public class SeatMapServiceImpl implements SeatMapService {
     private final RoomService roomService;
     private final CinemaService cinemaService;
     private final MovieService movieService;
+    private final PricingService pricingService;
 
     @Override
     public SeatMapResponse getSeatMap(Long showtimeId) {
@@ -54,7 +56,7 @@ public class SeatMapServiceImpl implements SeatMapService {
                 // Ghế không có dòng trong showtime_seat coi như đã khoá, không cho chọn
                 .map(s -> new SeatView(s.id(), s.row(), s.number(), s.x(), s.y(), s.type(), s.pairSeatId(),
                         states.getOrDefault(s.id(), SeatStatus.BLOCKED),
-                        ShowtimePricing.price(showtime.getFormat(), s.type(), date)))
+                        pricingService.priceOf(showtime.getFormat(), s.type(), date)))
                 .toList();
 
         return new SeatMapResponse(

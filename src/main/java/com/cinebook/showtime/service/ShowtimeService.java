@@ -2,6 +2,7 @@ package com.cinebook.showtime.service;
 
 import com.cinebook.cinema.entity.ScreenFormat;
 import com.cinebook.showtime.dto.MovieShowtimesResponse;
+import com.cinebook.showtime.dto.ShowtimeSummary;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -24,4 +25,7 @@ public interface ShowtimeService {
      */
     List<MovieShowtimesResponse> getShowtimes(String provinceSlug, Long cinemaId, LocalDate date,
                                                  Long movieId, ScreenFormat format);
+
+    /** Thông tin cơ bản của một suất chiếu; không tồn tại -> 404. */
+    ShowtimeSummary getShowtimeSummary(Long showtimeId);
 }

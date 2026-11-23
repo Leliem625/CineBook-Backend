@@ -1,11 +1,13 @@
 package com.cinebook.common.config;
 
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
- * @EnableScheduling + ShedLock để job không chạy trùng trên nhiều pod.
+ * Bật {@code @Scheduled} cho các job (hết hạn giữ ghế, đối soát...).
+ * TODO thêm ShedLock để job không chạy trùng khi chạy nhiều bản (pod).
  */
-@Component
+@Configuration
+@EnableScheduling
 public class SchedulingConfig {
-
 }
