@@ -1,0 +1,9 @@
+target
+.git
+.env
+.vscode
+.idea
+docs
+loadtest
+tools
+deploy

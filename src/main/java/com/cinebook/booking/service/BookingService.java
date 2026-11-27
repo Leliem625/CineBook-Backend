@@ -23,4 +23,10 @@ public interface BookingService {
      * {@code HOLD_EXPIRED} (410); đã huỷ hoặc đã thanh toán {@code CONFLICT} (409).
      */
     PaymentTarget beginPayment(String sessionId, Long bookingId);
+
+    /**
+     * Chi tiết đơn cho xử lý nội bộ (gửi email...), KHÔNG kiểm tra phiên khách. Không được nối vào API công khai.
+     * Đơn không tồn tại trả {@code BOOKING_NOT_FOUND}.
+     */
+    BookingResponse getBookingForSystem(Long bookingId);
 }

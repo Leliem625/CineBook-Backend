@@ -70,4 +70,18 @@ public interface ShowtimeSeatRepository extends JpaRepository<ShowtimeSeat, Show
      */
     @Query(nativeQuery = true, value = "SELECT seat_id FROM showtime_seat WHERE booking_id = :bookingId AND status = 'HELD'")
     List<Long> findHeldSeatIds(Long bookingId);
+
+    /**
+     * Bán các ghế đang được booking giữ (HELD -> SOLD) khi thanh toán thành công. Người gọi phải so số dòng
+     * trả về với số ghế của đơn: lệch nghĩa là có ghế không còn được giữ, phải rollback.
+     *
+     * @return số ghế đã bán
+     */
+    @Modifying(flushAutomatically = true)
+    @Query(nativeQuery = true, value = """
+            UPDATE showtime_seat
+               SET status = 'SOLD', version = version + 1, updated_at = now()
+             WHERE booking_id = :bookingId AND status = 'HELD'
+            """)
+    int sellSeats(Long bookingId);
 }

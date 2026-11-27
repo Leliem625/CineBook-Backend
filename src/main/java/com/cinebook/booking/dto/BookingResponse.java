@@ -26,7 +26,7 @@ public record BookingResponse(
         Instant holdExpiresAt,
         Instant serverNow) {
 
-    /** Ghế trong đơn: nhãn để hiển thị (A1, A2...) và giá đã chốt. */
-    public record Seat(Long seatId, String row, int number, SeatType type, long price) {
+    /** Ghế trong đơn: nhãn để hiển thị (A1, A2...), giá đã chốt và mã vé (chỉ có khi đơn đã CONFIRMED). */
+    public record Seat(Long seatId, String row, int number, SeatType type, long price, String ticketCode) {
     }
 }

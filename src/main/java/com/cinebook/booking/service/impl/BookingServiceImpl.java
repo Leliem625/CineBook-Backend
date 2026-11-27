@@ -23,6 +23,7 @@ import com.cinebook.cinema.service.RoomService;
 import com.cinebook.common.exception.BusinessException;
 import com.cinebook.common.exception.ErrorCode;
 import com.cinebook.showtime.service.ShowtimeService;
+import com.cinebook.ticket.service.TicketService;
 
 import lombok.RequiredArgsConstructor;
 
@@ -36,21 +37,39 @@ public class BookingServiceImpl implements BookingService {
     private final BookingStatusHistoryRepository historyRepository;
     private final ShowtimeService showtimeService;
     private final RoomService roomService;
+    private final TicketService ticketService;
 
     @Override
     public BookingResponse getBooking(String sessionId, Long bookingId) {
         Booking booking = bookingRepository.findById(bookingId)
                 .filter(b -> b.getGuestSessionId().equals(sessionId))
                 .orElseThrow(() -> new BusinessException(ErrorCode.BOOKING_NOT_FOUND, "Không tìm thấy đơn đặt vé"));
+        return toResponse(booking);
+    }
+
+    @Override
+    public BookingResponse getBookingForSystem(Long bookingId) {
+        Booking booking = bookingRepository.findById(bookingId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.BOOKING_NOT_FOUND, "Không tìm thấy đơn đặt vé"));
+        return toResponse(booking);
+    }
+
+    private BookingResponse toResponse(Booking booking) {
+        Long bookingId = booking.getId();
 
         Long roomId = showtimeService.getShowtimeSummary(booking.getShowtimeId()).roomId();
         Map<Long, SeatResponse> layout = roomService.getRoomLayout(roomId).seats().stream()
                 .collect(Collectors.toMap(SeatResponse::id, Function.identity()));
 
+        // Vé chỉ có sau khi thanh toán thành công
+        Map<Long, String> tickets = booking.getStatus() == BookingStatus.CONFIRMED || booking.getStatus() == BookingStatus.CHECKED_IN
+                ? ticketService.getQrTokens(bookingId) : Map.of();
+
         List<BookingResponse.Seat> seats = booking.getSeats().stream()
                 .map(bs -> {
                     SeatResponse s = layout.get(bs.getSeatId());
-                    return new BookingResponse.Seat(bs.getSeatId(), s.row(), s.number(), bs.getSeatType(), bs.getPrice());
+                    return new BookingResponse.Seat(bs.getSeatId(), s.row(), s.number(), bs.getSeatType(), bs.getPrice(),
+                            tickets.get(bs.getSeatId()));
                 })
                 .sorted(Comparator.comparing(BookingResponse.Seat::row).thenComparingInt(BookingResponse.Seat::number))
                 .toList();

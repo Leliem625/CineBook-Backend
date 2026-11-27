@@ -43,8 +43,14 @@ management:
     web:
       exposure:
         include: health,info,prometheus,metrics
+  metrics:
+    distribution:
+      percentiles-histogram:
+        http.server.requests: true # để Prometheus tính p95/p99
 
 cinebook:
+  mail:
+    from: CineBook <no-reply@cinebook.local>
   guest-session:
     secret: ${GUEST_SESSION_SECRET:dev-only-change-me-at-least-32-characters}
     cookie-name: GUEST_SESSION
@@ -58,6 +64,10 @@ cinebook:
     token: ${TMDB_TOKEN:}
     region: VN
     language: vi-VN
+  payment:
+    pending-timeout: 15m   # payment PENDING quá mốc này thì đóng và nhả ghế (hạn trên cổng tối đa 10 phút)
+    reconcile-interval: 60s
+    gateway: ${PAYMENT_GATEWAY:fake} # fake: cổng giả lập (dev), vnpay: VNPay thật (cần VNPAY_TMN_CODE/VNPAY_HASH_SECRET)
   vnpay:
     tmn-code: ${VNPAY_TMN_CODE:}
     hash-secret: ${VNPAY_HASH_SECRET:}

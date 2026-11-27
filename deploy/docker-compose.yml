@@ -1,0 +1,89 @@
+# Chạy trên server Ubuntu:  cd deploy && cp .env.example .env && docker compose up -d --build
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: cinebook
+      POSTGRES_USER: cinebook
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes: [pgdata:/var/lib/postgresql/data]
+    command: ["postgres", "-c", "max_connections=100", "-c", "shared_buffers=512MB"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cinebook"]
+      interval: 5s
+      retries: 10
+
+  redis:
+    image: redis:7.4-alpine
+    restart: unless-stopped
+
+  app:
+    build: ..
+    restart: unless-stopped
+    depends_on:
+      postgres: { condition: service_healthy }
+    environment:
+      SPRING_PROFILES_ACTIVE: prod          # không phải dev => không chạy seeder, không có endpoint dev
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/cinebook?reWriteBatchedInserts=true
+      SPRING_DATASOURCE_USERNAME: cinebook
+      SPRING_DATASOURCE_PASSWORD: ${DB_PASSWORD}
+      SPRING_DATASOURCE_HIKARI_MAXIMUM_POOL_SIZE: ${HIKARI_POOL:-10}
+      SPRING_DATA_REDIS_HOST: redis
+      SPRING_DATA_REDIS_PORT: 6379
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka-chua-dung:9092
+      SPRING_MAIL_HOST: mail-chua-dung
+      MANAGEMENT_SERVER_PORT: 9090           # actuator ở cổng riêng, không publish ra ngoài
+      PAYMENT_GATEWAY: fake
+      GUEST_SESSION_SECRET: ${GUEST_SESSION_SECRET}
+    ports: ["8080:8080"]
+
+  prometheus:
+    image: prom/prometheus:v3.5.0
+    restart: unless-stopped
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - promdata:/prometheus
+    command: ["--config.file=/etc/prometheus/prometheus.yml", "--storage.tsdb.retention.time=7d"]
+    ports: ["127.0.0.1:9091:9090"]           # chỉ truy cập qua SSH tunnel
+
+  grafana:
+    image: grafana/grafana:12.1.0
+    restart: unless-stopped
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD}
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - grafanadata:/var/lib/grafana
+    ports: ["3001:3000"]
+
+  node-exporter:                             # CPU, RAM, đĩa, mạng của máy chủ
+    image: prom/node-exporter:v1.9.1
+    restart: unless-stopped
+    pid: host
+    volumes: ["/:/host:ro,rslave"]
+    command: ["--path.rootfs=/host"]
+
+  cadvisor:                                  # CPU, RAM theo từng container
+    image: gcr.io/cadvisor/cadvisor:v0.52.1
+    restart: unless-stopped
+    privileged: true
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+
+  postgres-exporter:
+    image: prometheuscommunity/postgres-exporter:v0.17.1
+    restart: unless-stopped
+    environment:
+      DATA_SOURCE_NAME: postgresql://cinebook:${DB_PASSWORD}@postgres:5432/cinebook?sslmode=disable
+    depends_on:
+      postgres: { condition: service_healthy }
+
+volumes:
+  pgdata:
+  promdata:
+  grafanadata:

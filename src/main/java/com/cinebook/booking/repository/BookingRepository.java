@@ -48,4 +48,31 @@ public interface BookingRepository extends JpaRepository<Booking, Long> {
                AND status = 'HELD' AND hold_expires_at > now()
             """)
     int markPaymentPending(Long bookingId, String sessionId);
+
+    /** PAYMENT_PENDING -> CONFIRMED (một câu UPDATE có điều kiện, native nên tự tăng version). @return 1 nếu đã chuyển */
+    @Modifying(flushAutomatically = true)
+    @Query(nativeQuery = true, value = """
+            UPDATE booking
+               SET status = 'CONFIRMED', version = version + 1, updated_at = now()
+             WHERE id = :bookingId AND status = 'PAYMENT_PENDING'
+            """)
+    int markConfirmed(Long bookingId);
+
+    /** PAYMENT_PENDING -> HELD khi thanh toán thất bại để khách thử lại. @return 1 nếu đã chuyển */
+    @Modifying(flushAutomatically = true)
+    @Query(nativeQuery = true, value = """
+            UPDATE booking
+               SET status = 'HELD', version = version + 1, updated_at = now()
+             WHERE id = :bookingId AND status = 'PAYMENT_PENDING'
+            """)
+    int revertToHeld(Long bookingId);
+
+    /** PAYMENT_PENDING -> EXPIRED khi quá hạn thanh toán. @return 1 nếu đã chuyển */
+    @Modifying(flushAutomatically = true)
+    @Query(nativeQuery = true, value = """
+            UPDATE booking
+               SET status = 'EXPIRED', version = version + 1, updated_at = now()
+             WHERE id = :bookingId AND status = 'PAYMENT_PENDING'
+            """)
+    int markExpiredUnpaid(Long bookingId);
 }

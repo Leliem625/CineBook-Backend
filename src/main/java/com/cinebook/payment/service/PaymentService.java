@@ -1,7 +1,11 @@
 package com.cinebook.payment.service;
 
+import java.util.Map;
+
 import com.cinebook.payment.dto.CreatePaymentRequest;
+import com.cinebook.payment.dto.IpnResponse;
 import com.cinebook.payment.dto.PaymentResponse;
+import com.cinebook.payment.dto.PaymentResultResponse;
 
 /**
  * Tạo thanh toán, xử lý IPN.
@@ -20,5 +24,17 @@ public interface PaymentService {
      */
     PaymentResponse createPayment(String sessionId, Long bookingId, CreatePaymentRequest request, String ipAddress);
 
-    // TODO handleIpn(): kiểm tra chữ ký + idempotent + số tiền (BR-21..23)
+    /**
+     * Xử lý IPN của cổng (BR-21..23): ghi callback, kiểm tra chữ ký, đối chiếu số tiền, idempotent.
+     * Thành công thì payment SUCCEEDED, đơn CONFIRMED, ghế SOLD, sinh vé, tất cả trong một transaction;
+     * thất bại thì payment FAILED (hoặc CANCELLED_BY_USER) và đơn quay về HELD để thử lại.
+     * Luôn trả phản hồi theo định dạng VNPay; lỗi không lường trước thì ném exception để rollback.
+     */
+    IpnResponse handleIpn(Map<String, String> params);
+
+    /**
+     * Kết quả một lần thanh toán cho trang kết quả, tìm theo mã tham chiếu. Chỉ phiên khách sở hữu đơn mới xem
+     * được, ngược lại 404.
+     */
+    PaymentResultResponse getResult(String sessionId, String txnRef);
 }
